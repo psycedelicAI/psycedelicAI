@@ -16,8 +16,8 @@ PsycedelicAI is active on multiple platforms, sharing expertise and collaboratin
 
 - [PromptBase](https://promptbase.com/profile/psycedelic)
 - [Keybase](https://keybase.io/psycedelic)
-- [Notion](https://psycedelicai.notion.site/9e5e784934a347fab5edb52d0e0e4b76?v=5efab03741f747d2ad985a4d399b02dc)
-- [inperson.page](https://inperson.page/psycedelicai)
+
+
 
 Additionally, PsycedelicAI uses secure communication tools such as Session, Telegram, Wiremin, and Simple X Chat to ensure privacy and effective collaboration.
 
