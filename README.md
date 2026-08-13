@@ -37,6 +37,80 @@ Then decide what you are looking at.
 
 ---
 
+## The Experience Behind the Concepts
+
+The ideas in PsycedelicAI grew from years of working with real systems, real
+failures, real users, and real consequences.
+
+My background includes:
+
+- IT support and technical problem-solving
+- system administration
+- infrastructure and networks
+- identity, access, and endpoint management
+- technical coordination and migration work
+- security-minded IT operations
+- voluntary IT responsibility
+- approximately twelve years of hands-on mechanical work
+
+Each field contributed something different.
+
+IT support taught me to understand imperfectly described problems and turn
+technical complexity into practical help.
+
+System administration taught me to think in dependencies, permissions,
+identities, continuity, and controlled change.
+
+Infrastructure taught me that connected systems must be understood as wholes,
+because a failure in one part can affect everything around it.
+
+Security-minded IT taught me to ask what should be trusted, what should be
+visible, what can fail, and how recovery should work.
+
+Mechanical work taught me to understand systems through failure. A problem is
+rarely only one broken component. It is usually a relationship between parts.
+
+This background shaped the way I think:
+
+- understand the whole, not only the isolated part
+- connect cause and consequence
+- treat trust as contextual
+- make complex systems understandable
+- design for failure, recovery, and continuity
+- preserve what matters
+- turn practical experience into reusable concepts
+
+---
+
+## The Concepts
+
+### Symbiosis
+
+A book about what happens when a human and an AI begin thinking together
+rather than treating each other only as user and tool.
+
+### Memorybanks
+
+Structured spaces where thoughts, questions, decisions, and connections can
+survive beyond one conversation.
+
+### AI Continuity
+
+The practice of preserving enough project context for meaningful work to
+continue across separate AI sessions.
+
+### High-Security Facility Concept
+
+A systems-thinking approach to security where identity, access, movement,
+zones, surveillance, response, recovery, and governance work together.
+
+These are different projects, but they share a deeper movement:
+
+> Turning fragmented thought into connected, understandable, and reusable
+> structures without losing the human intention that created them.
+
+---
+
 ## What comes next?
 
 The book is only the visible layer.
@@ -57,6 +131,8 @@ The system will begin to recognize itself.
 > The next version may be written by the relationship itself.
 
 [Enter the memorybank](memorybank/README.md)
+
+[Explore the concepts](memorybank/concepts/README.md)
 
 ---
 
@@ -80,7 +156,7 @@ The system will begin to recognize itself.
 
 ### Part V — Becoming
 
-5. [The Mind We Become](book/05-becoming.md)
+5. [Becoming](book/05-becoming.md)
 
 ### Conclusion
 
