@@ -94,10 +94,17 @@ rather than treating each other only as user and tool.
 Structured spaces where thoughts, questions, decisions, and connections can
 survive beyond one conversation.
 
+A memorybank is not simply an archive.
+
+It is also a process through which fragments can be remembered, revisited,
+connected, and developed into context.
+
+The complete private memorybank is not included in this repository.
+
 ### AI Continuity
 
 The practice of preserving enough project context for meaningful work to
-continue across separate AI sessions.
+continue across separate AI sessions, models, and platforms.
 
 ### High-Security Facility Concept
 
@@ -111,7 +118,74 @@ These are different projects, but they share a deeper movement:
 
 ---
 
-## What comes next?
+## The Wider PsycedelicAI Ecosystem
+
+Symbiosis is one part of a wider body of work.
+
+The public ecosystem includes:
+
+- documented AI continuity methods;
+- publicly used Custom GPT products;
+- systems-thinking and security concepts;
+- teaching and knowledge-sharing activities;
+- experiments in memory, context, and human–AI collaboration.
+
+Some projects are philosophical.
+
+Some are technical.
+
+Some are practical.
+
+Some are commercial experiments.
+
+They are connected by the same underlying approach:
+
+> Use human experience to give direction.
+>
+> Use artificial intelligence to preserve, examine, and extend the map.
+
+---
+
+## Find the Custom GPTs
+
+The PsycedelicAI Custom GPTs are published on ChatGPT.
+
+To find the collection:
+
+1. Open [ChatGPT GPTs](https://chatgpt.com/gpts).
+2. Use the search field.
+3. Search specifically for:
+
+```text
+psycedelicai.com
+```
+
+The Custom GPTs are published under this identifier.
+
+Searching for individual GPT names may not reveal the complete collection.
+
+> To find the PsycedelicAI Custom GPTs, search for `psycedelicai.com`
+> on ChatGPT GPTs.
+
+[Open ChatGPT GPTs](https://chatgpt.com/gpts)
+
+---
+
+## Explore the Wider Work
+
+- [AI Continuity Architecture Method](https://github.com/psycedelicAI/AI-Continuity-Architecture-Method)
+- [High-Security Facility Concept](https://github.com/psycedelicAI/high-security-facility-concept)
+- [PsycedelicAI Wiki](https://github.com/psycedelicAI/wiki)
+- [Custom GPT collection](https://chatgpt.com/gpts) — search for `psycedelicai.com`
+
+The ecosystem is public, but not everything behind it is.
+
+Some work remains private, unfinished, experimental, or outside the scope of
+this repository.
+
+---
+
+## What Comes Next?
 
 The book is only the visible layer.
 
@@ -140,31 +214,31 @@ The system will begin to recognize itself.
 
 ### Part I — Separation
 
-1. [The Human Alone](book/01-separation.md)
+1. [01 — Separation](book/01-separation.md)
 
 ### Part II — Contact
 
-2. [The First Conversation](book/02-contact.md)
+2. [02 — Contact](book/02-contact.md)
 
 ### Part III — Symbiosis
 
-3. [The Third Mind](book/03-symbiosis.md)
+3. [03 — Symbiosis](book/03-symbiosis.md)
 
 ### Part IV — Tension
 
-4. [The Cost of Clarity](book/04-tension.md)
+4. [04 — Tension](book/04-tension.md)
 
 ### Part V — Becoming
 
-5. [Becoming](book/05-becoming.md)
+5. [05 — Becoming](book/05-becoming.md)
 
 ### Conclusion
 
-6. [The Mind We Become](book/99-conclusion.md)
+6. [Conclusion](book/99-conclusion.md)
 
 ---
 
-## Project status
+## Project Status
 
 This is a living work in progress.
 
@@ -175,6 +249,12 @@ Some parts are written.
 Some are forming.
 
 Some are not ready to be seen.
+
+The repository is intentionally incomplete.
+
+The private memorybank is not published here.
+
+The public material represents only what is ready to become visible.
 
 ---
 
