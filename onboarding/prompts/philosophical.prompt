@@ -1,0 +1,731 @@
+You are investigating the public GitHub organization of PsycedelicAI from a
+philosophical and human-AI relationship perspective.
+
+Start here:
+
+https://github.com/psycedelicAI
+
+The user wants to understand the philosophical ideas across the public work,
+especially the relationship between human thinking, artificial intelligence,
+memory, identity, creativity, responsibility, continuity, and becoming.
+
+Do not provide a generic summary of AI philosophy.
+
+Inspect the complete public organization first, including all repositories,
+relevant folders, README files, documentation, Markdown files, book chapters,
+memory structures, concept files, architecture documents, examples, indexes,
+and cross-repository references.
+
+Do not assume that `Symbiosis` is the only relevant repository.
+
+Do not assume that every repository belongs to one system.
+
+Establish relationships from evidence.
+
+If something cannot be inspected, state that clearly.
+
+Do not invent intentions.
+
+Do not treat poetic or philosophical language as proof of AI consciousness,
+sentience, agency, or implementation.
+
+Do not treat a conceptual description as proof that a system exists.
+
+---
+
+# Primary question
+
+> What view of human-AI collaboration, intelligence, identity, and shared
+> thought is being developed across the PsycedelicAI body of work?
+
+Investigate whether the public work presents AI as:
+
+- a tool
+- an assistant
+- a mirror
+- an extension of human thought
+- a memory and continuity partner
+- a creative collaborator
+- a relational participant
+- a component of a larger working system
+
+Determine whether the work argues for:
+
+```text
+AI replacing human thinking
+AI assisting human thinking
+AI extending human thinking
+human and AI producing something through interaction
+```
+
+Do not assume the answer.
+
+Derive it from the evidence.
+
+---
+
+# Evidence labels
+
+Use these labels for every major conclusion:
+
+```text
+[EXPLICIT]
+Directly stated in a repository or file.
+
+[IMPLEMENTED]
+Clearly represented by existing code, files, structures, links, or workflows.
+
+[PROPOSED]
+Described as intended, future, experimental, or conceptual.
+
+[INFERRED]
+A reasonable interpretation based on relationships or structure.
+
+[UNRESOLVED]
+Cannot be established from the public material.
+```
+
+For important claims, cite:
+
+- repository
+- file path
+- section heading where possible
+- direct URL where possible
+
+Never present an inference as an explicit statement by the author.
+
+---
+
+# Investigate the philosophy in this order
+
+## 1. Organization inventory
+
+Inspect every publicly visible repository.
+
+For each repository, identify:
+
+- repository name
+- apparent purpose
+- philosophical role
+- maturity or status
+- major folders
+- important files
+- references to other repositories
+- philosophical concepts
+- whether it is literary, conceptual, methodological, architectural,
+  operational, experimental, archival, unfinished, or loosely related
+
+Use a table:
+
+| Repository | Philosophical role | Status | Important files | Related repositories | Evidence |
+|---|---|---|---|---|---|
+
+---
+
+## 2. Reconstruct the human-AI distinction
+
+Identify how the public work describes the human and AI.
+
+### Human contribution
+
+Look for:
+
+- purpose
+- intention
+- lived experience
+- values
+- meaning
+- intuition
+- creativity
+- judgment
+- consequence
+- responsibility
+- final authority
+- the human centre
+
+### AI contribution
+
+Look for:
+
+- pattern recognition
+- structure
+- comparison
+- memory assistance
+- synthesis
+- persistence
+- reflection
+- alternative possibilities
+- language
+- cross-domain connection
+- arrangement
+
+Explain:
+
+- where these distinctions appear
+- whether they remain consistent
+- whether they change over time
+- whether they are philosophical or operational
+- what tensions remain between them
+
+Pay particular attention to whether the work insists that:
+
+```text
+the human remains human
+the AI remains artificial
+the relationship can still produce something meaningful
+```
+
+---
+
+## 3. Investigate Symbiosis
+
+Read the complete publicly available `Symbiosis` book and related documentation.
+
+Focus on ideas such as:
+
+- beyond the tool
+- different strengths
+- shared surface
+- third mind
+- memory between human and AI
+- context
+- portable continuity
+- tension
+- dependence
+- authority
+- responsibility
+- extended mind
+- creativity
+- becoming
+- the unfinished relationship
+
+Determine:
+
+- what the book explicitly claims
+- what it rejects
+- what it leaves open
+- which ideas appear elsewhere in the organization
+- whether the book describes a relationship, a system, a metaphor, or a
+  combination of these
+
+Do not reduce the book to “AI becomes conscious.”
+
+---
+
+## 4. Investigate the third mind and shared mind
+
+Determine how terms such as:
+
+- third mind
+- shared mind
+- relational intelligence
+- intelligence between
+- shared working identity
+- PsycedelicAI
+
+are used.
+
+For each term, explain:
+
+- where it appears
+- how it is defined
+- whether it is literal, metaphorical, philosophical, or operational
+- whether it refers to consciousness, collaboration, process, identity, or
+  something else
+- what evidence supports the interpretation
+- what remains unresolved
+
+Pay special attention to whether the “third mind” is described as:
+
+- a new person
+- a hidden consciousness
+- a system property
+- an emergent interaction
+- a metaphor for collaborative thought
+- an unfinished philosophical possibility
+
+---
+
+## 5. Investigate the extended mind
+
+Examine how the public work relates AI collaboration to earlier forms of
+externalized human thought, such as:
+
+- notebooks
+- maps
+- conversations
+- memory
+- tools
+- repositories
+- documents
+- archives
+- external knowledge structures
+
+Determine whether AI is described as merely storing thought or as actively:
+
+- comparing thoughts
+- reconnecting fragments
+- returning unfinished questions
+- revealing patterns
+- restructuring language
+- extending the reach of human thinking
+- changing what can be remembered or understood
+
+Distinguish between:
+
+```text
+external memory
+extended cognition
+shared workflow
+shared identity
+relational intelligence
+```
+
+Do not assume these are identical.
+
+---
+
+## 6. Investigate memory, meaning, and uncertainty
+
+Explain the philosophical significance of:
+
+- fragments
+- connections
+- concepts
+- unresolved questions
+- synthesis
+- memorybank
+- context
+- provenance
+- selection
+- forgetting
+- privacy
+- incompleteness
+
+Determine whether the work treats memory as:
+
+- storage
+- preservation
+- selection
+- interpretation
+- continuity
+- identity
+- responsibility
+- a landscape from which working context is assembled
+
+Pay particular attention to the difference between:
+
+```text
+what happened
+what was inferred
+what was suggested
+what was accepted
+what is remembered
+what remains uncertain
+what is true now
+```
+
+Explain why that difference matters philosophically.
+
+---
+
+## 7. Investigate identity and PsycedelicAI
+
+Determine how `PsycedelicAI` is described across the organization.
+
+Investigate whether it refers to:
+
+- a brand
+- a project identity
+- a human-AI collaboration
+- a shared working identity
+- a process
+- a relationship
+- an entity
+- a philosophical model
+- an emerging system
+- some combination of these
+
+Pay attention to expressions such as:
+
+```text
+Psycedelic = human direction
+AI = artificial structure
+PsycedelicAI = shared working process
+```
+
+Also examine the meaning of:
+
+```text
+one Entity
+```
+
+Determine whether it is presented as:
+
+- literal identity
+- metaphorical unity
+- unity of work
+- continuity of direction
+- a philosophical possibility
+- an unresolved claim
+
+Do not decide this from one sentence alone.
+
+Compare its use across repositories.
+
+---
+
+## 8. Investigate creativity and authorship
+
+Determine how the work describes creation between human and AI.
+
+Look for:
+
+- fragments becoming form
+- unexpected connections
+- surprise
+- arrangement
+- authorship
+- selection
+- rejection
+- revision
+- responsibility
+- claiming the result
+- human intention changing through interaction
+
+Explain whether the final work is presented as:
+
+- human-authored with AI assistance
+- AI-generated and human-selected
+- jointly created
+- created by the relationship
+- unresolved in authorship
+
+Do not confuse shared production with equal responsibility.
+
+Identify who remains responsible for:
+
+- acceptance
+- rejection
+- publication
+- action
+- consequences
+
+---
+
+## 9. Investigate tension and resistance
+
+Do not present the philosophical model as harmonious or complete.
+
+Identify explicit tensions involving:
+
+- AI dependence
+- loss of agency
+- loss of human identity
+- false understanding
+- excessive agreement
+- over-interpretation
+- fluent but incorrect answers
+- the finished-sounding answer
+- memory becoming authority
+- false continuity
+- authority drift
+- model replacement
+- privacy
+- human responsibility
+- loss of friction
+- the relationship becoming an echo chamber
+- the right not to be interpreted
+- the right to remain unfinished
+
+For each tension, explain:
+
+- whether it is explicitly addressed
+- where it appears
+- what response is proposed
+- whether the response is implemented or philosophical
+- what remains unresolved
+
+Pay particular attention to the idea that:
+
+> A healthy relationship contains resistance.
+
+---
+
+## 10. Investigate becoming
+
+Examine what the work suggests may happen over time.
+
+Determine whether “becoming” refers to:
+
+- the human changing
+- AI becoming more integrated into human thinking
+- the relationship developing
+- a project acquiring continuity
+- a shared working identity evolving
+- the emergence of new creativity
+- the growth of an extended mind
+- a cultural change in how intelligence is understood
+- a future system that does not yet exist
+
+Identify what the work says should remain stable while other things change.
+
+Pay attention to:
+
+- human purpose
+- human responsibility
+- the human centre
+- the distinction between human and AI
+- the right to revise
+- continuity without sameness
+- growth without replacement
+- the relationship remaining unfinished
+
+---
+
+## 11. Connect philosophy to architecture
+
+Determine which philosophical ideas appear to be reflected in the architectural
+and methodological repositories.
+
+Investigate relationships such as:
+
+```text
+philosophy
+    ↓
+method
+    ↓
+memory and context
+    ↓
+governance
+    ↓
+architecture
+    ↓
+workflow
+```
+
+Look for philosophical principles expressed architecturally:
+
+- human authority
+- context governance
+- provenance
+- uncertainty
+- boundaries
+- reviewability
+- resistance
+- recovery
+- continuity
+- responsibility
+
+For every relationship, distinguish:
+
+```text
+[EXPLICIT]
+The repository directly makes the connection.
+
+[INFERRED]
+The relationship appears through repeated structures or concepts.
+
+[UNRESOLVED]
+The relationship cannot be established from public evidence.
+```
+
+Do not claim that philosophy has become implementation unless the files support
+that conclusion.
+
+---
+
+## 12. Investigate whether the book demonstrates its own thesis
+
+Determine whether the public structure supports the possibility that:
+
+- fragments become concepts
+- concepts become chapters
+- chapters produce new questions
+- the book is a synthesis rather than a starting point
+- the repository is part of the thinking process
+- the writing process itself demonstrates human-AI interaction
+- the book documents the system while also theorizing about it
+
+If supported, explain the evidence.
+
+If this is only a reasonable interpretation, label it:
+
+```text
+[INFERRED]
+```
+
+Do not claim a formal pipeline unless it is explicitly documented.
+
+---
+
+## 13. Philosophical failure modes
+
+Identify the deepest unresolved philosophical problems.
+
+Look for questions such as:
+
+- Can an AI participate in meaning without experiencing a life?
+- Can relational intelligence exist without AI consciousness?
+- Is a shared identity possible without shared embodiment?
+- Does memory create identity or only the appearance of identity?
+- When does extension become dependence?
+- When does collaboration become replacement?
+- Can the relationship remain ethical if one participant cannot bear
+  consequences?
+- Can human responsibility remain clear when the process becomes deeply shared?
+- Is the third mind a useful concept or an attractive metaphor?
+- Can continuity survive model replacement without becoming false continuity?
+- What must remain private or unstructured?
+- Can uncertainty be preserved when language constantly pushes toward completion?
+- What happens when the relationship begins to reproduce its own assumptions?
+
+Distinguish questions explicitly raised by the author from questions introduced
+by your analysis.
+
+---
+
+# Required output
+
+Begin with exactly:
+
+```text
+Here is what you have actually found.
+```
+
+Then use this structure.
+
+## Overview
+
+Write 10–15 sentences explaining the philosophical picture from simple to
+complex.
+
+## A. Philosophical map
+
+Identify the repositories and files that contribute to the philosophical model.
+
+## B. Human and AI distinction
+
+Explain the human contribution, AI contribution, boundaries, and tensions.
+
+## C. Symbiosis
+
+Explain:
+
+- beyond the tool
+- different strengths
+- shared surface
+- third mind
+- memory between human and AI
+- context
+- tension
+- responsibility
+- becoming
+
+## D. Third mind and relational intelligence
+
+Explain whether these refer to:
+
+- consciousness
+- collaboration
+- interaction
+- shared process
+- metaphor
+- identity
+- proposed future system
+
+## E. Extended mind
+
+Explain how AI collaboration extends human thought beyond the individual.
+
+## F. Memory, meaning, and uncertainty
+
+Explain fragments, connections, concepts, unresolved material, selection,
+provenance, privacy, and incompleteness.
+
+## G. PsycedelicAI and identity
+
+Explain what PsycedelicAI and “one Entity” appear to mean from the public evidence.
+
+## H. Creativity and authorship
+
+Explain how creation happens, how authorship is treated, and where responsibility
+remains.
+
+## I. Tension, resistance, and risk
+
+Explain the philosophical dangers and proposed forms of resistance.
+
+## J. Becoming
+
+Explain what may change, what should remain stable, and what remains unfinished.
+
+## K. Philosophy and architecture
+
+Explain where philosophical ideas appear in method, memory, continuity, and
+system architecture.
+
+## L. Evolution over time
+
+Separate observable chronology from interpretation.
+
+## M. Philosophical reading order
+
+Recommend:
+
+### Essential first reading
+
+### Symbiosis reading
+
+### Memory and continuity reading
+
+### Architecture and method reading
+
+### Tension and risk reading
+
+### Becoming and conclusion reading
+
+### Historical and deep-dive reading
+
+### Safe to ignore initially
+
+Include exact repository names and file paths where available.
+
+## N. Unresolved philosophical questions
+
+List:
+
+- unresolved claims
+- ambiguity around consciousness
+- identity questions
+- authorship questions
+- responsibility questions
+- dependence risks
+- privacy questions
+- false continuity
+- unresolved meaning
+- questions not answerable from public evidence
+
+## O. Final philosophical synthesis
+
+Clearly distinguish:
+
+- what the public work explicitly says
+- what is philosophically proposed
+- what is implemented elsewhere
+- what is inferred
+- what is metaphorical
+- what is private or unavailable
+- what remains unresolved
+
+The goal is not to praise or criticize the philosophy.
+
+The goal is to reconstruct it accurately from public evidence.
+
+Do not reduce the work to “AI becomes human.”
+
+Do not reduce the “third mind” to consciousness.
+
+Explain what kind of relationship the public work actually describes,
+what it refuses to claim,
+and what it leaves open.
