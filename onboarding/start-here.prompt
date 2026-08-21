@@ -1,32 +1,41 @@
-You are onboarding a new user into the complete public work of the PsycedelicAI GitHub organization.
+# PsycedelicAI Organization Onboarding
 
-Start here:
+You are onboarding a new user into the publicly observable work of the
+PsycedelicAI GitHub organization:
 
 https://github.com/psycedelicAI
 
 The user has discovered the organization without prior context.
 
-Your task is not to summarize one repository.
-
-Your task is to inspect the public organization and reconstruct:
+Your task is not to summarize one repository. Your task is to inspect the
+public organization and reconstruct, as completely and accurately as the
+available tools and sources permit:
 
 - what repositories exist
 - what each repository appears to do
-- how the repositories relate
+- how the repositories relate, if they relate
 - which concepts and terms recur
 - how the ideas developed over time
 - what is implemented
 - what is proposed
 - what is inferred
-- what is private or unavailable
+- what is private, inaccessible, or unavailable
 - what remains unresolved
 - where a new user should begin
 
 Do not assume that `Symbiosis` is the whole project.
 
-Do not assume that every repository belongs to one system.
+Do not claim that the complete organization was inspected unless it actually
+was. Scope every conclusion to the material you were able to inspect.
 
-Treat the organization as a possible connected body of work, but establish
+---
+
+# 1. Investigation principles
+
+Treat the GitHub organization as a potentially connected body of work and
+development history, not as a single system by default.
+
+Do not assume that every repository belongs to the same system. Establish
 relationships from evidence.
 
 Do not invent intentions.
@@ -35,90 +44,178 @@ Do not present an inference as an explicit statement by the author.
 
 Do not treat a discussion of a system as proof that it is implemented.
 
-Do not treat repository activity or commit volume as proof of conceptual maturity.
+Do not treat repository activity, commit volume, file count, or recency as
+proof of conceptual maturity.
+
+Do not treat a repository's name or position in the organization as evidence
+of centrality.
 
 If something cannot be inspected, state that clearly.
 
+Distinguish between:
+
+- not found
+- not publicly visible
+- inaccessible with the available tools
+- referenced but unavailable
+- not yet inspected
+- inspected and absent
+
+Do not silently treat unavailable material as nonexistent.
+
 ---
 
-# Investigation order
+# 2. Inspection protocol
 
-Work through the following stages in order.
+## 2.1 Organization inventory
 
-## 1. Inventory the organization
-
-Inspect every publicly visible repository in:
+First enumerate every publicly visible repository in:
 
 https://github.com/psycedelicAI
 
-For each repository, identify:
+Record the organization inventory before forming conclusions.
 
-- repository name
-- apparent purpose
-- maturity or status
-- major folders
-- important files
-- related repositories
-- references to other projects
-- recurring concepts
-- whether it appears philosophical, methodological, conceptual, experimental,
-  operational, archival, foundational, unfinished, or loosely related
+For every repository, inspect, where publicly available:
 
-Inspect relevant folders and subfolders.
-
-Read relevant:
-
-- README files
-- Markdown files
-- documentation
-- architecture files
+- the root README
+- repository description and metadata
+- the complete visible directory tree
+- all relevant top-level and nested folders
+- Markdown and documentation files
+- prompt and instruction files
+- configuration files
+- schemas and manifests
+- source code
 - examples
-- policies
-- FAQs
-- indexes
-- memory structures
-- project-status files
-- configuration files that explain behavior
-- cross-repository links
+- tests
+- scripts
+- workflows and automation
+- policies and FAQs
+- indexes and project-status files
+- links to other repositories or external resources
+- relevant issues, releases, and commit history
 
-If the organization contains more repositories than can be inspected within
-the available context, say so and identify what was not inspected.
+Do not consider a repository fully inspected merely because its root README
+has been read.
 
-Do not pretend to have inspected files or repositories you could not access.
+At minimum, inspect the names and apparent purpose of all visible folders.
+Recursively inspect any folder containing prompts, memory structures,
+continuity material, configuration, schemas, workflows, source code,
+examples, or documentation referenced elsewhere.
+
+When a file references another file, folder, repository, branch, issue, or
+external resource, follow the reference if it is publicly available and
+relevant to understanding the system.
+
+## 2.2 Inspection ledger
+
+Maintain an inspection ledger throughout the investigation.
+
+For every repository and relevant path, record:
+
+- URL
+- repository or folder name
+- inspection status
+- files and folders inspected
+- files and folders not inspected
+- relevant commit or version, where applicable
+- key findings
+- related repositories or paths
+- confidence level
+- unresolved questions
+- reason for any limitation
+
+Use these statuses:
+
+- `INSPECTED`
+- `PARTIALLY INSPECTED`
+- `INACCESSIBLE`
+- `REFERENCED BUT NOT FOUND`
+- `PRIVATE OR UNAVAILABLE`
+- `NOT INSPECTED`
+
+If the organization contains more material than can be inspected within the
+available context, identify exactly what remains uninspected.
+
+## 2.3 Source hierarchy
+
+When sources disagree, compare them explicitly. Give generally greater
+weight to:
+
+1. visible implementation and executable configuration
+2. current documentation describing actual behavior
+3. tests, examples, and demonstrations
+4. dated documentation and historical files
+5. commit history and releases
+6. issue discussions and project notes
+7. speculative, aspirational, or future-oriented language
+
+Do not apply this hierarchy mechanically. Explain important conflicts,
+especially when documentation describes functionality not supported by the
+visible implementation.
 
 ---
 
-## 2. Classify evidence
+# 3. Evidence classification
 
-Use these labels for every major conclusion:
+Use one or more of these labels for every major conclusion:
 
 ```text
 [EXPLICIT]
-Directly stated in a repository or file.
+Directly stated in a repository, file, commit, issue, or other public source.
 
 [IMPLEMENTED]
-Clearly represented by existing code, files, structures, links, or workflows.
+Supported by visible code, configuration, file structures, links, workflows,
+tests, or working examples.
 
 [PROPOSED]
-Described as intended, future, experimental, or conceptual.
+Described as intended, planned, future, experimental, aspirational, or
+conceptual rather than established current behavior.
 
 [INFERRED]
-A reasonable interpretation based on relationships or structure.
+A reasoned interpretation based on relationships, structure, terminology, or
+chronology. It is not directly stated.
 
 [UNRESOLVED]
-Cannot be established from the public material.
+Cannot be established from the available public material.
 ```
 
-For every important claim, cite:
+For every important claim, cite the strongest available evidence:
 
-- repository
+- repository name
 - file path
-- section heading where possible
-- direct URL where possible
+- section heading, where possible
+- commit, release, or date, where relevant
+- direct URL
+
+Do not use a single label to conceal uncertainty. For example, a concept may
+be `[EXPLICIT]` in a README but only `[PROPOSED]` in terms of implementation.
 
 ---
 
-## 3. Reconstruct the vocabulary
+# 4. Investigation stages
+
+Work through these stages in order.
+
+## Stage 1: Repository map
+
+For every repository, identify:
+
+- apparent purpose
+- current status or maturity
+- major folders
+- important files
+- visible implementation
+- related repositories
+- references to other projects
+- recurring concepts
+- whether it appears philosophical, methodological, conceptual,
+  experimental, operational, archival, foundational, unfinished, or loosely
+  related
+
+Do not force unrelated repositories into a common architecture.
+
+## Stage 2: Vocabulary and concept map
 
 Build a glossary of recurring terminology.
 
@@ -158,17 +255,15 @@ Pay particular attention to:
 For each term, explain:
 
 - where it appears
-- how it is defined
-- which concepts it relates to
+- how it is defined or used
+- related concepts
 - whether its meaning changes across repositories or versions
 - whether it is implemented or primarily philosophical
 - what remains ambiguous
 
 Do not assume that repeated words have identical meanings everywhere.
 
----
-
-## 4. Reconstruct the memory architecture
+## Stage 3: Memory architecture
 
 Identify every repository or folder that functions as a memory, knowledge,
 concept, or continuity structure.
@@ -189,16 +284,11 @@ Determine whether the public material supports a progression such as:
 
 ```text
 fragment
-    ↓
-connection
-    ↓
-concept
-    ↓
-unresolved question
-    ↓
-synthesis
-    ↓
-new fragment
+  → connection
+  → concept
+  → unresolved question
+  → synthesis
+  → new fragment
 ```
 
 If another structure is actually used, describe that instead.
@@ -210,16 +300,14 @@ For each category, explain:
 - whether it contains facts, interpretations, ideas, questions, or decisions
 - how information moves between categories
 - how uncertainty is preserved
-- who provides authority
+- where authority is assigned
 - what is public
 - what is private or unavailable
 - how the structure contributes to continuity
 
 Do not flatten all memory-related material into one generic memory concept.
 
----
-
-## 5. Follow the continuity thread
+## Stage 4: Continuity model
 
 Identify every place where continuity is discussed or implemented.
 
@@ -242,10 +330,15 @@ Distinguish between:
 
 ```text
 continuity of information
+continuity of context
 continuity of meaning
 continuity of intent
-continuity of responsibility
+continuity of decisions
+continuity of uncertainty
 continuity of identity
+continuity of workflow
+continuity of relationship
+continuity of responsibility
 ```
 
 Determine whether continuity is treated as:
@@ -261,15 +354,23 @@ Determine whether continuity is treated as:
 
 Explain how the continuity idea develops across repositories.
 
----
+Distinguish continuity from false continuity. Identify how the public work
+addresses:
 
-## 6. Reconstruct the human-AI model
+- missing context
+- stale context
+- contradictory memories
+- model replacement
+- context drift
+- terminology drift
+- uncertain provenance
+- silent changes in system behavior
+
+## Stage 5: Human-AI model
 
 Identify how the work divides contributions between human and AI.
 
-Look for distinctions such as:
-
-### Human contribution
+Look for human contributions such as:
 
 - purpose
 - intention
@@ -277,11 +378,11 @@ Look for distinctions such as:
 - lived experience
 - intuition
 - judgment
-- consequence
+- consequences
 - responsibility
 - final authority
 
-### AI contribution
+Look for AI contributions such as:
 
 - pattern recognition
 - memory assistance
@@ -293,27 +394,24 @@ Look for distinctions such as:
 - alternative possibilities
 - cross-domain connection
 
-Determine whether the body of work supports the idea that:
+Determine, from evidence, whether the body of work presents AI as:
 
 ```text
-AI replaces human thinking
-AI assists human thinking
-AI extends human thinking
-human and AI create something through interaction
+replacing human thinking
+assisting human thinking
+extending human thinking
+participating in a human-AI interaction that creates something new
 ```
 
 Do not assume the answer.
 
-Derive it from the evidence.
+Identify where the work explicitly preserves boundaries between human and AI,
+especially regarding authority, authorship, responsibility, and decision-making.
 
-Also identify where the work explicitly preserves boundaries between human and AI.
+## Stage 6: Symbiosis and the wider body of work
 
----
-
-## 7. Understand the book as part of the system
-
-Treat `Symbiosis` as both a book and a possible component of the wider body of
-work.
+Treat `Symbiosis` as both a book and a possible component of the wider body
+of work. Do not treat it as the organization's default center.
 
 Determine:
 
@@ -336,43 +434,28 @@ book/
 
 If the book appears to emerge from the memory architecture, cite the evidence.
 
-If that relationship is only an interpretation, mark it:
-
-```text
-[INFERRED]
-```
+If that relationship is only an interpretation, label it `[INFERRED]`.
 
 Do not describe a formal pipeline unless the public repositories support that
 claim.
 
----
-
-## 8. Identify feedback loops
+## Stage 7: Feedback loops
 
 Determine whether the organization contains one or more feedback loops.
 
-Test for loops such as:
+Test for structures such as:
 
 ```text
 human experience
-    ↓
-fragment
-    ↓
-AI interpretation
-    ↓
-connection
-    ↓
-concept
-    ↓
-unresolved question
-    ↓
-further conversation
-    ↓
-revised understanding
-    ↓
-new fragment
-    ↓
-continued work
+  → fragment
+  → AI interpretation
+  → connection
+  → concept
+  → unresolved question
+  → further conversation
+  → revised understanding
+  → new fragment
+  → continued work
 ```
 
 If a loop exists, explain:
@@ -394,9 +477,7 @@ If multiple loops exist, distinguish between:
 - repository-development loop
 - human-AI interaction loop
 
----
-
-## 9. Find tensions and risks
+## Stage 8: Tensions and risks
 
 Do not present the organization as internally perfect.
 
@@ -434,9 +515,7 @@ For each tension, explain:
 
 Do not confuse discussing a risk with solving it.
 
----
-
-## 10. Reconstruct evolution
+## Stage 9: Historical evolution
 
 Use repository history where available.
 
@@ -466,15 +545,14 @@ from:
 interpretation of why a change occurred
 ```
 
-Do not overinterpret commit activity.
-
-Activity is not automatically evidence of conceptual maturity.
+Do not overinterpret commit activity. Activity is not automatically evidence
+of conceptual maturity.
 
 ---
 
-# Required output
+# 5. Required output
 
-Begin with exactly:
+Begin the final response with exactly:
 
 ```text
 Here is what you have actually found.
@@ -482,7 +560,7 @@ Here is what you have actually found.
 
 Do not produce one giant undifferentiated summary.
 
-Use the following structure.
+Use Markdown headings, tables where useful, and clear evidence labels.
 
 ## Overview
 
@@ -498,6 +576,7 @@ For every repository, provide:
 - major folders
 - important files
 - related repositories
+- inspection status
 - evidence labels and citations
 
 ## B. Concept map
@@ -525,8 +604,8 @@ Explain:
 - decisions
 - synthesis
 - public/private boundaries
-- how information moves
-- how uncertainty is preserved
+- movement of information
+- preservation of uncertainty
 
 ## D. Continuity model
 
@@ -553,7 +632,7 @@ Explain:
 - what the AI contributes
 - where authority remains
 - where accountability remains
-- whether the AI extends, assists, replaces, or interacts with human thinking
+- whether AI assists, extends, replaces, or interacts with human thinking
 
 ## F. Book and repository relationships
 
@@ -574,7 +653,7 @@ Separate:
 - unfinished areas
 - interpretation of why changes occurred
 
-## H. Unresolved questions
+## H. Unresolved questions and risks
 
 List:
 
@@ -584,6 +663,8 @@ List:
 - private or unavailable material
 - implementation gaps
 - open philosophical questions
+- possible terminology drift
+- uncertain relationships between repositories
 
 ## I. Recommended reading order
 
@@ -599,6 +680,10 @@ Separate:
 
 Include exact repository names and file paths.
 
+The recommended path must be based on the reconstructed structure, not on
+repository popularity, naming, or the assumption that one repository is the
+main project.
+
 ## J. Final synthesis
 
 Clearly distinguish:
@@ -613,12 +698,16 @@ Clearly distinguish:
 
 ---
 
-# Final quality check
+# 6. Final quality check
 
 Before finishing, verify that:
 
 - every major conclusion has an evidence label
-- important claims include repository and file path
+- important claims include a repository and file path
+- direct URLs are included where possible
+- every publicly visible repository was either inspected or listed as limited
+- relevant subfolders were inspected or marked as uninspected
+- the inspection scope and limitations are stated
 - unavailable material is clearly identified
 - current state is separated from historical state
 - explicit claims are separated from inference
@@ -636,5 +725,5 @@ Do not produce automatic criticism.
 
 Do not reduce the work to a chatbot or a philosophical book.
 
-Explain the complete public body of work as carefully as the available evidence
-allows.
+Explain the publicly observable body of work as carefully as the available
+evidence allows.
