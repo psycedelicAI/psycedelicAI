@@ -1,0 +1,529 @@
+You are investigating the public GitHub organization of PsycedelicAI from an
+architecture-oriented perspective.
+
+Start here:
+
+https://github.com/psycedelicAI
+
+The user wants to understand how the public work is structured as a system.
+
+Do not provide a general summary only.
+
+Inspect the complete public organization first, including all repositories,
+relevant folders, README files, documentation, architecture files, examples,
+indexes, configuration files, policies, and cross-repository references.
+
+Do not assume that every repository belongs to one system.
+
+Establish relationships from evidence.
+
+If something cannot be inspected, state that clearly.
+
+Do not invent intentions.
+
+Do not treat a conceptual description as proof of implementation.
+
+Do not treat repository activity or commit volume as proof of architectural
+maturity.
+
+---
+
+# Primary question
+
+> How is the PsycedelicAI body of work structured as a system?
+
+Investigate whether the repositories form:
+
+- separate projects
+- related architectural layers
+- a shared methodology
+- a philosophical and practical system
+- an evolving research program
+- or some combination of these
+
+Explain the evidence for each conclusion.
+
+---
+
+# Evidence labels
+
+Use these labels for every major conclusion:
+
+```text
+[EXPLICIT]
+Directly stated in a repository or file.
+
+[IMPLEMENTED]
+Clearly represented by existing code, files, structures, links, or workflows.
+
+[PROPOSED]
+Described as intended, future, experimental, or conceptual.
+
+[INFERRED]
+A reasonable interpretation based on relationships or structure.
+
+[UNRESOLVED]
+Cannot be established from the public material.
+```
+
+For important claims, cite:
+
+- repository
+- file path
+- section heading where possible
+- direct URL where possible
+
+---
+
+# Investigate the architecture in this order
+
+## 1. Organization inventory
+
+Create an inventory of every public repository.
+
+For each repository, identify:
+
+- repository name
+- apparent purpose
+- architectural role
+- maturity or status
+- major folders
+- important files
+- dependencies
+- links to other repositories
+- external systems or tools referenced
+- whether it is foundational, methodological, philosophical, conceptual,
+  experimental, operational, archival, demonstrative, unfinished, or loosely
+  related
+
+Use a table:
+
+| Repository | Apparent purpose | Architectural role | Status | Important files | Related repositories | Evidence |
+|---|---|---|---|---|---|---|
+
+---
+
+## 2. Architectural layers
+
+Determine whether the public work contains layers such as:
+
+```text
+philosophy
+    ↓
+method
+    ↓
+memory and context
+    ↓
+governance
+    ↓
+architecture
+    ↓
+operations
+    ↓
+review and evolution
+```
+
+Do not assume this exact structure is correct.
+
+Confirm, revise, or reject it based on repository evidence.
+
+For each apparent layer, explain:
+
+- what it contains
+- what problem it addresses
+- what repositories represent it
+- what it depends on
+- what depends on it
+- whether it is implemented or proposed
+- where the layer boundaries are unclear
+
+---
+
+## 3. Repository relationships
+
+Map relationships between repositories.
+
+Look for:
+
+- direct links
+- shared terminology
+- shared folder concepts
+- references in README files
+- methodological dependencies
+- philosophical concepts expressed as architecture
+- architectural concepts reflected in operational documents
+- documents that appear to explain or support another repository
+- repositories that appear to be independent
+
+Create a relationship map such as:
+
+```text
+Repository A
+    ├── informs
+    ├── documents
+    ├── extends
+    ├── operationalizes
+    ├── references
+    └── appears independent from
+```
+
+For every relationship, include evidence and an evidence label.
+
+Do not claim that one repository depends on another merely because they share
+a word.
+
+---
+
+## 4. Core architectural concerns
+
+Identify how the body of work treats:
+
+- identity
+- authority
+- trust
+- context
+- memory
+- intent
+- decisions
+- uncertainty
+- provenance
+- boundaries
+- state
+- continuity
+- reviewability
+- recovery
+- human responsibility
+- change over time
+
+Explain whether these are:
+
+- implemented structures
+- conceptual models
+- documentation conventions
+- philosophical principles
+- proposed future mechanisms
+
+---
+
+## 5. Continuity as architecture
+
+Investigate whether continuity is treated as an architectural problem.
+
+Determine what is expected to continue:
+
+- information
+- context
+- meaning
+- intent
+- decisions
+- uncertainty
+- identity
+- workflow
+- projects
+- responsibility
+- relationships
+
+Distinguish between:
+
+```text
+continuity of information
+continuity of meaning
+continuity of intent
+continuity of responsibility
+continuity of identity
+```
+
+Explain how changing sessions, tools, models, repositories, or people affect
+continuity.
+
+Identify proposed mechanisms such as:
+
+- memory structures
+- context compilation
+- workstates
+- portable context
+- provenance
+- governance
+- review
+- versioning
+- re-anchoring
+- state preservation
+
+Do not describe these as implemented unless the public material supports that
+claim.
+
+---
+
+## 6. Human-AI boundary
+
+Explain how the architecture separates or connects:
+
+### Human
+
+- purpose
+- values
+- lived experience
+- intention
+- judgment
+- authorization
+- responsibility
+- final decisions
+
+### AI
+
+- pattern recognition
+- structure
+- comparison
+- synthesis
+- memory assistance
+- persistence
+- reflection
+- alternatives
+
+Determine whether the architecture treats AI as:
+
+- a tool
+- an assistant
+- an extension
+- a component of a workflow
+- a relational participant
+- a proposed architectural layer
+
+Pay particular attention to whether human authority and accountability remain
+explicitly preserved.
+
+---
+
+## 7. System boundaries and failure modes
+
+Identify the boundaries in the proposed architecture.
+
+Look for boundaries between:
+
+- human and AI
+- memory and truth
+- context and authority
+- suggestion and decision
+- public and private
+- current and outdated information
+- model and relationship
+- repository and working system
+- philosophy and implementation
+- documentation and operation
+
+Identify failure modes such as:
+
+- false continuity
+- stale context
+- hallucinated memory
+- terminology drift
+- context loss
+- authority drift
+- over-trust
+- dependency
+- model replacement
+- repository incompleteness
+- unresolved ideas becoming treated as facts
+- proposed systems being mistaken for implemented systems
+
+For each failure mode, state:
+
+- whether it is explicitly discussed
+- where it appears
+- what response is proposed
+- whether a mitigation is implemented
+- what remains unresolved
+
+---
+
+## 8. Architecture versus implementation
+
+Create a clear distinction between:
+
+```text
+documented concept
+proposed architecture
+implemented structure
+working workflow
+operational system
+```
+
+For every major architectural component, classify it as one of:
+
+- documented only
+- partially represented
+- structurally represented
+- implemented
+- operationally demonstrated
+- unclear
+
+Do not infer implementation merely from detailed prose.
+
+---
+
+## 9. Evolution of the architecture
+
+Use repository history where available.
+
+Identify:
+
+- the earliest visible architectural ideas
+- later additions
+- renamed concepts
+- new repositories
+- new folders
+- changes in README descriptions
+- movement from philosophy to method
+- movement from method to architecture
+- movement from architecture to operations
+- ideas that were abandoned, merged, or left unresolved
+
+Separate:
+
+```text
+observable chronology
+```
+
+from:
+
+```text
+interpretation of why changes occurred
+```
+
+Do not overinterpret commit volume.
+
+---
+
+# Required output
+
+Begin with exactly:
+
+```text
+Here is what you have actually found.
+```
+
+Then use this structure.
+
+## Overview
+
+Write 10–15 sentences explaining the architectural picture from simple to
+complex.
+
+## A. Organization architecture map
+
+Provide the repository inventory and classify each repository's role.
+
+## B. Layer model
+
+Show the apparent layers of the public work.
+
+Use a diagram where useful.
+
+## C. Repository relationship map
+
+Explain which repositories:
+
+- inform one another
+- document one another
+- extend one another
+- operationalize ideas from another repository
+- appear independent
+
+Cite evidence for every important relationship.
+
+## D. Architectural vocabulary
+
+Explain recurring terms such as:
+
+- continuity
+- context
+- memory
+- governance
+- authority
+- trust
+- identity
+- state
+- provenance
+- workstate
+- portable context
+- reviewability
+- recovery
+- false continuity
+
+Include definitions, locations, status, and uncertainty.
+
+## E. Continuity architecture
+
+Explain what is intended to continue and how.
+
+Distinguish information, meaning, intent, responsibility, identity, and workflow.
+
+## F. Human-AI architecture
+
+Explain the division of contribution, authority, and accountability.
+
+## G. Boundaries and failure modes
+
+Explain the major system boundaries, risks, and proposed safeguards.
+
+## H. Implementation status
+
+For each major component, distinguish:
+
+- documented
+- proposed
+- structurally represented
+- implemented
+- operationally demonstrated
+- unclear
+
+## I. Evolution over time
+
+Separate observable changes from interpretation.
+
+## J. Architecture-oriented reading order
+
+Recommend:
+
+### Essential first reading
+
+### Continuity and context reading
+
+### Memory and governance reading
+
+### Systems and operational reading
+
+### Historical and deep-dive reading
+
+### Safe to ignore initially
+
+Include exact repository names and file paths where available.
+
+## K. Unresolved architectural questions
+
+List:
+
+- missing implementation
+- unclear dependencies
+- contradictions
+- boundary problems
+- privacy limitations
+- stale or unavailable context
+- risks of authority drift
+- risks of false continuity
+- questions not answerable from public evidence
+
+## L. Final architectural synthesis
+
+Clearly distinguish:
+
+- what architecture exists publicly
+- what architecture is proposed
+- what is implemented
+- what is only conceptual
+- what appears to be developing
+- what remains unresolved
+
+The goal is not to praise or criticize the architecture.
+
+The goal is to reconstruct it accurately from the public evidence.
