@@ -1,6 +1,15 @@
-> New to PsycedelicAI?
->
-> Start with the [PsycedelicAI System Onboarding Guide](START-HERE.md).
+## New here?
+
+PsycedelicAI is a public body of work exploring human-AI collaboration,
+memory, continuity, architecture, philosophy, and responsible system design.
+
+Start here:
+
+[Read the onboarding guide](onboarding/START-HERE.md)
+
+Or copy the AI investigation prompt:
+
+[Open `start-here.prompt`](onboarding/start-here.prompt)
 
 # SYMBIOSIS
 
