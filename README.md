@@ -229,28 +229,31 @@ The system will begin to recognize itself.
 
 ### Part I — Separation
 
-1. [01 — Separation](book/01-separation.md)
+1. [01 — Separation](https://github.com/psycedelicAI/Symbiosis/blob/main/book/01-separation.md)
 
 ### Part II — Contact
 
-2. [02 — Contact](book/02-contact.md)
+2. [02 — Contact](https://github.com/psycedelicAI/Symbiosis/blob/main/book/02-contact.md)
 
 ### Part III — Symbiosis
 
-3. [03 — Symbiosis](book/03-symbiosis.md)
+3. [03 — Symbiosis](https://github.com/psycedelicAI/Symbiosis/blob/main/book/03-symbiosis.md)
 
 ### Part IV — Tension
 
-4. [04 — Tension](book/04-tension.md)
+4. [04 — Tension](https://github.com/psycedelicAI/Symbiosis/blob/main/book/04-tension.md)
 
 ### Part V — Becoming
 
-5. [05 — Becoming](book/05-becoming.md)
+5. [05 — Becoming](https://github.com/psycedelicAI/Symbiosis/blob/main/book/05-becoming.md)
 
 ### Conclusion
 
-6. [Conclusion](book/99-conclusion.md)
+6. [Conclusion](https://github.com/psycedelicAI/Symbiosis/blob/main/book/99-conclusion.md)
 
+### Frequently Asked Questions
+
+- [FAQ](https://github.com/psycedelicAI/Symbiosis/blob/main/book/FAQ.md)
 ---
 
 ## Project Status
