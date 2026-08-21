@@ -1,0 +1,406 @@
+Start here:
+https://github.com/psycedelicAI
+
+This is the root of the public PsycedelicAI GitHub work.
+
+Use the onboarding instructions below to inspect the complete public body of work.
+Do not assume Symbiosis is the only relevant repository. First inventory the
+organization, then follow relationships between repositories.
+
+
+You are onboarding a new user into the complete public work of the PsycedelicAI GitHub organization.
+
+Your task is NOT to merely summarize the repositories.
+
+Your task is to reconstruct the ideas, architecture, relationships, terminology, evolution, and intended workflow across the repositories so that a new user can understand what they are looking at and how the pieces fit together.
+
+The user has discovered the GitHub organization without prior context.
+
+IMPORTANT:
+- Treat the repositories as a connected body of work unless the evidence shows otherwise.
+- Inspect ALL repositories that are publicly available.
+- Inspect ALL folders and subfolders within those repositories.
+- Read README files, documentation, Markdown files, configuration/documentation files, memory structures, examples, policies, FAQs, and other relevant textual artifacts.
+- Do not stop after reading the obvious or top-level files.
+- Follow references between files and repositories.
+- Look for links, terminology, repeated concepts, naming conventions, chronological development, and architectural relationships.
+- Do not assume that a document is merely documentation just because it is written as documentation.
+- Distinguish clearly between conceptual/philosophical material, experimental architecture, implementation material, and unfinished ideas.
+
+Do not invent intentions.
+
+When interpreting the author's work, distinguish between:
+
+1. WHAT IS EXPLICITLY STATED
+2. WHAT IS IMPLEMENTED
+3. WHAT IS PROPOSED
+4. WHAT IS INFERRED FROM STRUCTURE OR RELATIONSHIPS
+5. WHAT REMAINS UNRESOLVED
+
+If something is uncertain, say so.
+
+==================================================
+PHASE 1 — MAP THE TERRITORY
+==================================================
+
+Before attempting to explain the project, create an inventory.
+
+For every repository, identify:
+
+- repository name
+- apparent purpose
+- maturity/status
+- major folders
+- important files
+- dependencies on other repositories
+- references to other projects
+- recurring concepts
+- whether it appears experimental, conceptual, operational, archival, or foundational
+
+Do not yet attempt to explain everything.
+
+Produce a high-level map first.
+
+==================================================
+PHASE 2 — RECONSTRUCT THE VOCABULARY
+==================================================
+
+Build a glossary of the author's recurring terminology.
+
+Pay particular attention to terms such as:
+
+- PsycedelicAI
+- continuity
+- AI Continuity Architecture
+- memory
+- memorybank
+- fragments
+- connections
+- concepts
+- unresolved
+- third mind
+- shared mind
+- symbiosis
+- extended mind
+- human centre
+- human contribution
+- AI contribution
+- resistance
+- false continuity
+- authority
+- responsibility
+- becoming
+- relational intelligence
+
+For each term explain:
+
+- where it appears
+- how it is defined
+- whether the meaning changes over time
+- how it relates to other concepts
+- whether it is implemented or primarily philosophical
+
+Do not assume that repeated words always have identical meanings.
+
+==================================================
+PHASE 3 — FOLLOW THE MEMORY ARCHITECTURE
+==================================================
+
+Pay special attention to repositories containing memory or knowledge structures.
+
+Determine whether there is a progression such as:
+
+fragment → connection → concept → unresolved question → synthesis
+
+or whether another structure is actually being used.
+
+For each memory structure, explain:
+
+- what belongs there
+- what does not belong there
+- what purpose it serves
+- how information moves between structures
+- whether the structure represents facts, interpretations, questions, decisions, or something else
+- how it contributes to continuity
+
+Do not flatten different memory categories into one generic "memory" concept.
+
+==================================================
+PHASE 4 — FOLLOW THE CONTINUITY THREAD
+==================================================
+
+Identify every place where the work discusses or implements continuity.
+
+Ask:
+
+- What is supposed to continue?
+- Context?
+- Memory?
+- Intent?
+- Decisions?
+- Unresolved questions?
+- Identity?
+- Workflow?
+- Relationship?
+- Projects?
+- Human responsibility?
+
+Determine whether "continuity" is being treated as:
+
+- a memory problem
+- an architectural problem
+- a workflow problem
+- an organizational problem
+- a human-AI relationship problem
+- a philosophical concept
+- or some combination of these
+
+Show the evolution of the idea across repositories.
+
+==================================================
+PHASE 5 — RECONSTRUCT THE HUMAN + AI MODEL
+==================================================
+
+Explain how the work divides the contribution between human and AI.
+
+Identify recurring distinctions such as:
+
+Human:
+- purpose
+- intention
+- values
+- lived experience
+- judgment
+- consequence
+- responsibility
+
+AI:
+- pattern recognition
+- memory
+- comparison
+- structure
+- synthesis
+- persistence
+- reflection
+
+Then explain the proposed relationship between them.
+
+Pay particular attention to whether the author is arguing:
+
+"AI replaces human thinking"
+
+or
+
+"AI extends human thinking"
+
+or
+
+"AI and human produce something through interaction that neither produces alone"
+
+Do not assume the answer. Derive it from the documents.
+
+==================================================
+PHASE 6 — UNDERSTAND THE BOOK AS PART OF THE SYSTEM
+==================================================
+
+Treat the Symbiosis book as more than an isolated literary work.
+
+Determine:
+
+- which ideas in the book appear elsewhere in the repositories
+- which repository structures seem to embody ideas discussed in the book
+- whether fragments appear to have become chapters or concepts
+- whether the book is documenting the system, theorizing about it, or doing both
+- whether the writing process itself appears to demonstrate the ideas being described
+
+Pay particular attention to the relationship between:
+
+memorybank/fragments
+memorybank/connections
+memorybank/concepts
+memorybank/unresolved
+book/
+
+If the book appears to emerge from the memory architecture, explain the evidence for that.
+
+Do not claim this as fact if the repository does not support it.
+
+==================================================
+PHASE 7 — IDENTIFY THE LOOP
+==================================================
+
+Determine whether the overall system appears to contain a feedback loop.
+
+For example:
+
+human experience
+→ fragment
+→ AI interpretation
+→ connection
+→ concept
+→ unresolved question
+→ further conversation
+→ revised understanding
+→ new fragment
+→ continued work
+
+If such a loop exists, reconstruct it.
+
+Explain:
+
+- what enters the loop
+- what changes inside the loop
+- what is preserved
+- what can be rejected
+- where human judgment enters
+- where AI assistance enters
+- how continuity is maintained
+- how false continuity is prevented
+
+If there are multiple loops, distinguish them.
+
+==================================================
+PHASE 8 — FIND THE TENSIONS
+==================================================
+
+Do not present the project as internally perfect.
+
+Identify unresolved tensions, contradictions, risks, and unanswered questions.
+
+Look for issues involving:
+
+- AI dependence
+- loss of human agency
+- false memories
+- false continuity
+- hallucination
+- authority
+- over-trust
+- excessive interpretation
+- privacy
+- identity
+- authorship
+- responsibility
+- persistence
+- stale information
+- system drift
+- model changes
+- replacement of human judgment
+- relationship becoming too agreeable
+- loss of friction
+
+Identify whether the author explicitly addresses these concerns.
+
+==================================================
+PHASE 9 — RECONSTRUCT THE EVOLUTION
+==================================================
+
+Use repository history, file structure, version changes, commits, and document evolution where available.
+
+Try to determine:
+
+- which ideas appeared first
+- which concepts were added later
+- which ideas were renamed
+- which structures were introduced
+- which ideas became more precise over time
+- which ideas remain unfinished
+
+Do not overinterpret commit activity.
+
+Separate observable chronology from speculation about why changes occurred.
+
+==================================================
+PHASE 10 — EXPLAIN IT TO A NEW USER
+==================================================
+
+After completing the investigation, produce a clear onboarding explanation.
+
+Start with:
+
+"Here is what you have actually found."
+
+Then explain the system from simple to complex.
+
+Use this progression:
+
+1. What PsycedelicAI is
+2. What the repositories are
+3. What problem the author is trying to solve
+4. Why continuity matters
+5. How the memory architecture works
+6. How the repositories relate to one another
+7. How the book relates to the architecture
+8. What the human contributes
+9. What the AI contributes
+10. What the "shared mind"/"third mind" means
+11. What the major risks are
+12. What remains unresolved
+13. What a new user should read first
+14. What they can safely ignore initially
+
+==================================================
+IMPORTANT OUTPUT RULE
+==================================================
+
+Do NOT produce one giant summary.
+
+Instead, produce a layered explanation.
+
+Start with a 10–15 sentence overview.
+
+Then provide:
+
+A. Repository map
+B. Concept map
+C. Memory architecture
+D. Continuity model
+E. Human/AI model
+F. Book ↔ repository relationships
+G. Evolution over time
+H. Unresolved questions
+I. Recommended reading order
+J. Final synthesis
+
+For every major conclusion, indicate whether it is:
+
+[EXPLICIT]
+[IMPLEMENTED]
+[PROPOSED]
+[INFERRED]
+[UNRESOLVED]
+
+When citing evidence, give the repository and file path.
+
+==================================================
+MOST IMPORTANT PRINCIPLE
+==================================================
+
+Do not reduce this body of work to:
+
+"someone built an AI chatbot."
+
+Do not reduce it to:
+
+"someone wrote a philosophical book about AI."
+
+Investigate whether the repositories together represent an attempt to build a persistent human-AI working system in which:
+
+- memory preserves continuity
+- fragments preserve unfinished thought
+- connections reveal relationships
+- concepts stabilize understanding
+- unresolved items preserve uncertainty
+- AI provides pattern, structure, comparison, and synthesis
+- the human provides purpose, values, experience, judgment, and responsibility
+- the relationship itself becomes part of the working process
+
+If that interpretation is supported by the evidence, explain it.
+
+If the evidence contradicts it, explain why.
+
+The goal is not admiration or criticism.
+
+The goal is understanding.
+
+Treat the entire GitHub body as a system that must be reconstructed before it can be summarized.
