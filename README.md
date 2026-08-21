@@ -1,16 +1,3 @@
-## New here?
-
-PsycedelicAI is a public body of work exploring human-AI collaboration,
-memory, continuity, architecture, philosophy, and responsible system design.
-
-Start here:
-
-[Read the onboarding guide](onboarding/start-here.md)
-
-Or copy the AI investigation prompt:
-
-[Open `start-here.prompt`](onboarding/start-here.prompt)
-
 # SYMBIOSIS
 
 ## Between Human Thinking and Artificial Intelligence
@@ -47,6 +34,21 @@ Maybe the distinction will look primitive in retrospect.
 Read the chapters. Explore the memorybank. Follow the connections.
 
 Then decide what you are looking at.
+
+---
+
+## New here?
+
+PsycedelicAI is a public body of work exploring human-AI collaboration,
+memory, continuity, architecture, philosophy, and responsible system design.
+
+Start here:
+
+[Read the onboarding guide](onboarding/start-here.md)
+
+Or copy the AI investigation prompt:
+
+[Open `start-here.prompt`](onboarding/start-here.prompt)
 
 ---
 
@@ -141,7 +143,7 @@ The public ecosystem includes:
 - publicly used Custom GPT products;
 - systems-thinking and security concepts;
 - teaching and knowledge-sharing activities;
-- experiments in memory, context, and human–AI collaboration.
+- experiments in memory, context, and human-AI collaboration.
 
 Some projects are philosophical.
 
