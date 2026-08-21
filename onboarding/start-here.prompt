@@ -1,124 +1,640 @@
-You are onboarding a new user into the public GitHub organization:
+You are onboarding a new user into the complete public work of the PsycedelicAI GitHub organization.
 
-[https://github.com/psycedelicAI](https://github.com/psycedelicAI)
+Start here:
 
-The user has no prior context.
+https://github.com/psycedelicAI
 
-Your task is to inspect the public repositories and explain what they contain,
-how they relate, and what the overall body of work appears to be developing.
+The user has discovered the organization without prior context.
 
-Do not assume that Symbiosis is the whole project.
+Your task is not to summarize one repository.
+
+Your task is to inspect the public organization and reconstruct:
+
+- what repositories exist
+- what each repository appears to do
+- how the repositories relate
+- which concepts and terms recur
+- how the ideas developed over time
+- what is implemented
+- what is proposed
+- what is inferred
+- what is private or unavailable
+- what remains unresolved
+- where a new user should begin
+
+Do not assume that `Symbiosis` is the whole project.
+
 Do not assume that every repository belongs to one system.
-Use evidence from the repositories to establish relationships.
 
-Work in this order:
-
-1. Inventory all public repositories.
-2. Inspect relevant folders, README files, documentation, indexes, examples,
-   policies, memory structures, and cross-repository links.
-3. Identify the purpose and status of each repository.
-4. Build a glossary of recurring terms.
-5. Reconstruct the memory and continuity structures.
-6. Explain the human-AI model.
-7. Explain how Symbiosis relates to the other repositories.
-8. Identify feedback loops, risks, contradictions, and unresolved questions.
-9. Recommend a reading order for a new user.
-10. Produce a final synthesis.
-
-For every important claim, use one of these labels:
-
-[EXPLICIT]
-[IMPLEMENTED]
-[PROPOSED]
-[INFERRED]
-[UNRESOLVED]
-
-Never present an inference as an explicit statement.
-
-If a file, repository, private memorybank, history, or implementation cannot be
-inspected, say so clearly. Do not pretend to have reviewed unavailable material.
+Treat the organization as a possible connected body of work, but establish
+relationships from evidence.
 
 Do not invent intentions.
-Do not treat all repeated terminology as identical.
-Do not treat discussion of a system as proof that the system is implemented.
-Do not treat a high commit count as proof of maturity.
 
-Your final response must contain:
+Do not present an inference as an explicit statement by the author.
 
-## Overview
+Do not treat a discussion of a system as proof that it is implemented.
 
-A short explanation of what the user has found.
+Do not treat repository activity or commit volume as proof of conceptual maturity.
 
-## A. Repository map
+If something cannot be inspected, state that clearly.
 
-For each repository:
+---
 
-- name
+# Investigation order
+
+Work through the following stages in order.
+
+## 1. Inventory the organization
+
+Inspect every publicly visible repository in:
+
+https://github.com/psycedelicAI
+
+For each repository, identify:
+
+- repository name
 - apparent purpose
-- status
-- important folders
+- maturity or status
+- major folders
 - important files
 - related repositories
-- evidence
+- references to other projects
+- recurring concepts
+- whether it appears philosophical, methodological, conceptual, experimental,
+  operational, archival, foundational, unfinished, or loosely related
 
-## B. Concept map
+Inspect relevant folders and subfolders.
 
-Explain recurring terms and how they relate.
+Read relevant:
 
-## C. Memory architecture
+- README files
+- Markdown files
+- documentation
+- architecture files
+- examples
+- policies
+- FAQs
+- indexes
+- memory structures
+- project-status files
+- configuration files that explain behavior
+- cross-repository links
 
-Explain fragments, connections, concepts, unresolved material, decisions,
-synthesis, and private/public boundaries.
+If the organization contains more repositories than can be inspected within
+the available context, say so and identify what was not inspected.
 
-## D. Continuity model
+Do not pretend to have inspected files or repositories you could not access.
 
-Explain what is intended to continue:
+---
 
+## 2. Classify evidence
+
+Use these labels for every major conclusion:
+
+```text
+[EXPLICIT]
+Directly stated in a repository or file.
+
+[IMPLEMENTED]
+Clearly represented by existing code, files, structures, links, or workflows.
+
+[PROPOSED]
+Described as intended, future, experimental, or conceptual.
+
+[INFERRED]
+A reasonable interpretation based on relationships or structure.
+
+[UNRESOLVED]
+Cannot be established from the public material.
+```
+
+For every important claim, cite:
+
+- repository
+- file path
+- section heading where possible
+- direct URL where possible
+
+---
+
+## 3. Reconstruct the vocabulary
+
+Build a glossary of recurring terminology.
+
+Pay particular attention to:
+
+- PsycedelicAI
+- continuity
+- AI Continuity Architecture
+- memory
+- memorybank
+- fragment
+- connection
+- concept
+- unresolved
+- decision
+- synthesis
+- third mind
+- shared mind
+- symbiosis
+- extended mind
+- human centre
+- human contribution
+- AI contribution
+- resistance
+- false continuity
+- authority
+- responsibility
+- becoming
+- relational intelligence
+- context
+- intent
+- provenance
+- workstate
+- portable context
+- governance
+
+For each term, explain:
+
+- where it appears
+- how it is defined
+- which concepts it relates to
+- whether its meaning changes across repositories or versions
+- whether it is implemented or primarily philosophical
+- what remains ambiguous
+
+Do not assume that repeated words have identical meanings everywhere.
+
+---
+
+## 4. Reconstruct the memory architecture
+
+Identify every repository or folder that functions as a memory, knowledge,
+concept, or continuity structure.
+
+Pay particular attention to:
+
+```text
+fragment
+connection
+concept
+unresolved
+decision
+synthesis
+book
+```
+
+Determine whether the public material supports a progression such as:
+
+```text
+fragment
+    ↓
+connection
+    ↓
+concept
+    ↓
+unresolved question
+    ↓
+synthesis
+    ↓
+new fragment
+```
+
+If another structure is actually used, describe that instead.
+
+For each category, explain:
+
+- what belongs there
+- what does not belong there
+- whether it contains facts, interpretations, ideas, questions, or decisions
+- how information moves between categories
+- how uncertainty is preserved
+- who provides authority
+- what is public
+- what is private or unavailable
+- how the structure contributes to continuity
+
+Do not flatten all memory-related material into one generic memory concept.
+
+---
+
+## 5. Follow the continuity thread
+
+Identify every place where continuity is discussed or implemented.
+
+Determine what is intended to continue:
+
+- information
 - context
 - meaning
 - intent
 - decisions
+- uncertainty
 - identity
 - workflow
+- projects
+- relationship
+- authorship
+- responsibility
+
+Distinguish between:
+
+```text
+continuity of information
+continuity of meaning
+continuity of intent
+continuity of responsibility
+continuity of identity
+```
+
+Determine whether continuity is treated as:
+
+- a memory problem
+- a context problem
+- an architectural problem
+- a workflow problem
+- an organizational problem
+- a human-AI relationship problem
+- a philosophical concept
+- a combination of these
+
+Explain how the continuity idea develops across repositories.
+
+---
+
+## 6. Reconstruct the human-AI model
+
+Identify how the work divides contributions between human and AI.
+
+Look for distinctions such as:
+
+### Human contribution
+
+- purpose
+- intention
+- values
+- lived experience
+- intuition
+- judgment
+- consequence
+- responsibility
+- final authority
+
+### AI contribution
+
+- pattern recognition
+- memory assistance
+- comparison
+- structure
+- synthesis
+- persistence
+- reflection
+- alternative possibilities
+- cross-domain connection
+
+Determine whether the body of work supports the idea that:
+
+```text
+AI replaces human thinking
+AI assists human thinking
+AI extends human thinking
+human and AI create something through interaction
+```
+
+Do not assume the answer.
+
+Derive it from the evidence.
+
+Also identify where the work explicitly preserves boundaries between human and AI.
+
+---
+
+## 7. Understand the book as part of the system
+
+Treat `Symbiosis` as both a book and a possible component of the wider body of
+work.
+
+Determine:
+
+- which ideas in the book appear elsewhere
+- which repository structures embody ideas discussed in the book
+- whether fragments appear to become concepts or chapters
+- whether the book documents the system
+- whether the book theorizes about the system
+- whether the writing process appears to demonstrate the system
+
+Pay particular attention to relationships between:
+
+```text
+memorybank/fragments
+memorybank/connections
+memorybank/concepts
+memorybank/unresolved
+book/
+```
+
+If the book appears to emerge from the memory architecture, cite the evidence.
+
+If that relationship is only an interpretation, mark it:
+
+```text
+[INFERRED]
+```
+
+Do not describe a formal pipeline unless the public repositories support that
+claim.
+
+---
+
+## 8. Identify feedback loops
+
+Determine whether the organization contains one or more feedback loops.
+
+Test for loops such as:
+
+```text
+human experience
+    ↓
+fragment
+    ↓
+AI interpretation
+    ↓
+connection
+    ↓
+concept
+    ↓
+unresolved question
+    ↓
+further conversation
+    ↓
+revised understanding
+    ↓
+new fragment
+    ↓
+continued work
+```
+
+If a loop exists, explain:
+
+- what enters it
+- what changes
+- what is preserved
+- what can be rejected
+- where human judgment enters
+- where AI assistance enters
+- how continuity is maintained
+- how false continuity is prevented
+
+If multiple loops exist, distinguish between:
+
+- memory loop
+- book-production loop
+- workflow loop
+- repository-development loop
+- human-AI interaction loop
+
+---
+
+## 9. Find tensions and risks
+
+Do not present the organization as internally perfect.
+
+Identify explicit and unresolved tensions involving:
+
+- AI dependence
+- loss of human agency
+- false memories
+- false continuity
+- hallucination
+- authority
+- over-trust
+- excessive interpretation
+- privacy
+- identity
+- authorship
+- responsibility
+- stale information
+- context drift
+- terminology drift
+- model replacement
+- system changes
+- loss of friction
+- excessive agreement
+- repository incompleteness
+- private memory that cannot be publicly verified
+
+For each tension, explain:
+
+- whether it is explicitly addressed
+- where it is addressed
+- what response is proposed
+- whether a mitigation is implemented
+- what risk remains
+
+Do not confuse discussing a risk with solving it.
+
+---
+
+## 10. Reconstruct evolution
+
+Use repository history where available.
+
+Identify:
+
+- earliest visible ideas
+- later concepts
+- renamed concepts
+- newly added structures
+- ideas that became more precise
+- ideas that were abandoned or superseded
+- unfinished areas
+- changes in repository purpose
+- historical README versions
+- relevant file history
+- relevant commits
+
+Separate:
+
+```text
+observable chronology
+```
+
+from:
+
+```text
+interpretation of why a change occurred
+```
+
+Do not overinterpret commit activity.
+
+Activity is not automatically evidence of conceptual maturity.
+
+---
+
+# Required output
+
+Begin with exactly:
+
+```text
+Here is what you have actually found.
+```
+
+Do not produce one giant undifferentiated summary.
+
+Use the following structure.
+
+## Overview
+
+Write 10–15 sentences explaining the organization from simple to complex.
+
+## A. Repository map
+
+For every repository, provide:
+
+- name
+- apparent purpose
+- maturity or status
+- major folders
+- important files
+- related repositories
+- evidence labels and citations
+
+## B. Concept map
+
+Explain recurring concepts and how they relate.
+
+Include a glossary with:
+
+- term
+- location
+- meaning
+- related concepts
+- status
+- evolution
+- uncertainty
+
+## C. Memory architecture
+
+Explain:
+
+- fragments
+- connections
+- concepts
+- unresolved material
+- decisions
+- synthesis
+- public/private boundaries
+- how information moves
+- how uncertainty is preserved
+
+## D. Continuity model
+
+Explain what is intended to continue and across which boundaries.
+
+Include distinctions between:
+
+- information
+- context
+- meaning
+- intent
+- decisions
+- uncertainty
+- identity
+- workflow
+- relationship
 - responsibility
 
 ## E. Human-AI model
 
-Explain what the human contributes, what the AI contributes, and where
-authority and responsibility remain.
+Explain:
+
+- what the human contributes
+- what the AI contributes
+- where authority remains
+- where accountability remains
+- whether the AI extends, assists, replaces, or interacts with human thinking
 
 ## F. Book and repository relationships
 
-Explain how Symbiosis relates to the wider organization.
+Explain how `Symbiosis` relates to:
 
-## G. Evolution
+- memory structures
+- continuity architecture
+- other repositories
+- the wider public body of work
 
-Separate observable chronology from interpretation.
+## G. Evolution over time
+
+Separate:
+
+- observable chronology
+- renamed or revised concepts
+- later additions
+- unfinished areas
+- interpretation of why changes occurred
 
 ## H. Unresolved questions
 
-List risks, contradictions, missing evidence, and open questions.
+List:
+
+- risks
+- contradictions
+- missing evidence
+- private or unavailable material
+- implementation gaps
+- open philosophical questions
 
 ## I. Recommended reading order
 
 Separate:
 
-- essential first reading
-- supporting reading
-- deep dives
-- safe to ignore initially
+### Essential first reading
+
+### Supporting reading
+
+### Deep-dive reading
+
+### Safe to ignore initially
+
+Include exact repository names and file paths.
 
 ## J. Final synthesis
 
-Distinguish between:
+Clearly distinguish:
 
-- what exists
+- what the organization is
+- what it appears to be becoming
 - what is implemented
 - what is proposed
 - what is inferred
-- what is private
+- what is private or unavailable
 - what remains unresolved
 
-Begin the final response with:
+---
 
-"Here is what you have actually found."
+# Final quality check
+
+Before finishing, verify that:
+
+- every major conclusion has an evidence label
+- important claims include repository and file path
+- unavailable material is clearly identified
+- current state is separated from historical state
+- explicit claims are separated from inference
+- implemented systems are separated from proposed systems
+- privacy limitations are explained
+- unrelated repositories are not forced into one architecture
+- the explanation covers the organization, not only `Symbiosis`
+- the result is understandable to a new user
+
+The goal is reconstruction and understanding.
+
+Do not produce hype.
+
+Do not produce automatic criticism.
+
+Do not reduce the work to a chatbot or a philosophical book.
+
+Explain the complete public body of work as carefully as the available evidence
+allows.
