@@ -1,3 +1,7 @@
+> New to PsycedelicAI?
+>
+> Start with the [PsycedelicAI System Onboarding Guide](START-HERE.md).
+
 # SYMBIOSIS
 
 ## Between Human Thinking and Artificial Intelligence
