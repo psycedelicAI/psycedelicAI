@@ -5,7 +5,7 @@ memory, continuity, architecture, philosophy, and responsible system design.
 
 Start here:
 
-[Read the onboarding guide](onboarding/START-HERE.md)
+[Read the onboarding guide](onboarding/start-here.md)
 
 Or copy the AI investigation prompt:
 
