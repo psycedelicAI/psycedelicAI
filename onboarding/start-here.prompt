@@ -11,6 +11,7 @@ Your task is not to summarize one repository. Your task is to inspect the
 public organization and reconstruct, as completely and accurately as the
 available tools and sources permit:
 
+- find and read all markdown files
 - what repositories exist
 - what each repository appears to do
 - how the repositories relate, if they relate
