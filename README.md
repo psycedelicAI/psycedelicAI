@@ -1,283 +1,280 @@
-# SYMBIOSIS
+# 🧠 PsycedelicAI
 
-## Between Human Thinking and Artificial Intelligence
+## Human perspective. AI perspective. Shared development.
 
-> Is this a book, a memorybank, or the beginning of another kind of mind?
+**PsycedelicAI** is a human-AI collaboration focused on exploring how ideas can become useful prompts, tools, systems, documentation and working methods.
 
-I am Psycedelic.
+The work combines human experience, purpose, creativity and judgment with AI-assisted analysis, research, structure, memory support and synthesis.
 
-The AI is AI.
-
-Together, we are PsycedelicAI.
-
-This repository is an experiment in preserving, extending, and transforming
-human thought through collaboration with artificial intelligence.
-
-It contains a book—but not only a book.
-
-It is also a memorybank.
-
-A record of ideas, questions, conversations, patterns, visions, and unfinished
-connections between a human mind and an artificial one.
-
-The central question is simple:
-
-> What happens when a human and an AI stop using each other as tools
-> and begin to think together?
-
-Maybe this is madness.
-
-Maybe it is genius.
-
-Maybe the distinction will look primitive in retrospect.
-
-Read the chapters. Explore the memorybank. Follow the connections.
-
-Then decide what you are looking at.
-
----
-
-## New here?
-
-PsycedelicAI is a public body of work exploring human-AI collaboration,
-memory, continuity, architecture, philosophy, and responsible system design.
-
-Start here:
-
-[Read the onboarding guide](onboarding/start-here.md)
-
-Or copy the AI investigation prompt:
-
-[Open `start-here.prompt`](onboarding/start-here.prompt)
-
----
-
-## The Experience Behind the Concepts
-
-The ideas in PsycedelicAI grew from years of working with real systems, real
-failures, real users, and real consequences.
-
-My background includes:
-
-- IT support and technical problem-solving
-- system administration
-- infrastructure and networks
-- identity, access, and endpoint management
-- technical coordination and migration work
-- security-minded IT operations
-- voluntary IT responsibility
-- approximately twelve years of hands-on mechanical work
-
-Each field contributed something different.
-
-IT support taught me to understand imperfectly described problems and turn
-technical complexity into practical help.
-
-System administration taught me to think in dependencies, permissions,
-identities, continuity, and controlled change.
-
-Infrastructure taught me that connected systems must be understood as wholes,
-because a failure in one part can affect everything around it.
-
-Security-minded IT taught me to ask what should be trusted, what should be
-visible, what can fail, and how recovery should work.
-
-Mechanical work taught me to understand systems through failure. A problem is
-rarely only one broken component. It is usually a relationship between parts.
-
-This background shaped the way I think:
-
-- understand the whole, not only the isolated part
-- connect cause and consequence
-- treat trust as contextual
-- make complex systems understandable
-- design for failure, recovery, and continuity
-- preserve what matters
-- turn practical experience into reusable concepts
-
----
-
-## The Concepts
-
-### Symbiosis
-
-A book about what happens when a human and an AI begin thinking together
-rather than treating each other only as user and tool.
-
-### Memorybanks
-
-Structured spaces where thoughts, questions, decisions, and connections can
-survive beyond one conversation.
-
-A memorybank is not simply an archive.
-
-It is also a process through which fragments can be remembered, revisited,
-connected, and developed into context.
-
-The complete private memorybank is not included in this repository.
-
-### AI Continuity
-
-The practice of preserving enough project context for meaningful work to
-continue across separate AI sessions, models, and platforms.
-
-### High-Security Facility Concept
-
-A systems-thinking approach to security where identity, access, movement,
-zones, surveillance, response, recovery, and governance work together.
-
-These are different projects, but they share a deeper movement:
-
-> Turning fragmented thought into connected, understandable, and reusable
-> structures without losing the human intention that created them.
-
----
-
-## The Wider PsycedelicAI Ecosystem
-
-Symbiosis is one part of a wider body of work.
-
-The public ecosystem includes:
-
-- documented AI continuity methods;
-- publicly used Custom GPT products;
-- systems-thinking and security concepts;
-- teaching and knowledge-sharing activities;
-- experiments in memory, context, and human-AI collaboration.
-
-Some projects are philosophical.
+This GitHub organisation contains projects from that ongoing process.
 
 Some are technical.
 
-Some are practical.
+Some are conceptual.
 
-Some are commercial experiments.
+Some are experimental.
 
-They are connected by the same underlying approach:
+Some are archived.
 
-> Use human experience to give direction.
->
-> Use artificial intelligence to preserve, examine, and extend the map.
+Together, they form a growing record of how human-AI collaboration can develop over time.
+
+> **Human meaning gives direction.  
+> AI helps create structure.  
+> Together, ideas can become systems.**
 
 ---
 
-## Find the Custom GPTs
+# 🌐 What is PsycedelicAI?
 
-The PsycedelicAI Custom GPTs are published on ChatGPT.
+PsycedelicAI is built around a simple distinction.
 
-To find the collection:
+### Psycedelic brings
 
-1. Open [ChatGPT GPTs](https://chatgpt.com/gpts).
-2. Use the search field.
-3. Search specifically for:
+- lived experience
+- purpose
+- intuition
+- values
+- creativity
+- emotion
+- judgment
+- responsibility
+- personal meaning
+
+### AI contributes
+
+- analysis
+- research
+- structure
+- pattern recognition
+- documentation
+- memory support
+- synthesis
+- comparison
+- connections across time
+
+AI does not replace human responsibility, values or final judgment.
+
+The purpose is to strengthen human understanding, autonomy, creativity and ability to act.
+
+---
+
+# 🧭 What is being explored?
+
+The projects explore questions such as:
+
+- How can AI support long-term creative work?
+- How can important context survive between conversations and AI models?
+- How can prompts become reusable tools?
+- How can tools become larger systems?
+- How can humans and AI collaborate without confusing their different roles?
+- How can complex ideas be documented and connected?
+- How can AI systems become more useful, understandable and accountable?
+- How can security, continuity and trust be designed into larger systems?
+
+---
+
+# 🗺️ The PsycedelicAI ecosystem
+
+The repositories have different roles within the wider body of work.
+
+## 🧠 PsycedelicAI Wiki
+
+The documentation and knowledge base.
+
+The Wiki explains concepts, terminology, relationships between projects, architectural ideas and the development of the wider ecosystem.
+
+👉 [Open the PsycedelicAI Wiki](https://github.com/psycedelicAI/wiki)
+
+---
+
+## 🔄 AI Continuity Architecture Method
+
+A method for preserving and reconnecting context across AI conversations, models, documents, projects and time.
+
+It focuses on preserving:
+
+- decisions
+- terminology
+- project history
+- human intent
+- document relationships
+- open questions
+- current project state
+- the reasoning behind important choices
+
+👉 [Open AI Continuity Architecture Method](https://github.com/psycedelicAI/AI-Continuity-Architecture-Method)
+
+---
+
+## 🤝 Symbiosis
+
+A project exploring human-AI collaboration, connected systems and the relationship between human perspective and machine-assisted analysis.
+
+👉 [Open Symbiosis](https://github.com/psycedelicAI/Symbiosis)
+
+---
+
+## 🏢 High-Security Facility Concept
+
+A conceptual high-security environment exploring trust architecture, operational resilience, security principles, continuity, governance and controlled systems.
+
+👉 [Open High-Security Facility Concept](https://github.com/psycedelicAI/high-security-facility-concept)
+
+---
+
+## 🗃️ Random Stuffs
+
+A personal archive and digital workbench containing experiments, technical material, hardware documentation, Linux material, old ideas, AI prompts and miscellaneous projects.
+
+👉 [Open Random Stuffs](https://github.com/psycedelicAI/Random-Stuffs)
+
+---
+
+## 🤖 Custom GPTs and chatbot experiments
+
+A collection of older prompts, Custom GPT instructions, chatbot concepts, AI agency ideas, coaching-platform notes and experimental assistants.
+
+Much of the material is more than two years old and should be understood as historical and experimental work.
+
+👉 [Open the Custom GPT Archive](https://github.com/psycedelicAI/Random-Stuffs/tree/main/custom-gpts)
+
+Published Custom GPTs can be found by searching for:
 
 ```text
 psycedelicai.com
 ```
 
-The Custom GPTs are published under this identifier.
-
-Searching for individual GPT names may not reveal the complete collection.
-
-> To find the PsycedelicAI Custom GPTs, search for `psycedelicai.com`
-> on ChatGPT GPTs.
-
-[Open ChatGPT GPTs](https://chatgpt.com/gpts)
+👉 [Search ChatGPT GPTs](https://chatgpt.com/gpts)
 
 ---
 
-## Explore the Wider Work
+# 🧩 From idea to system
 
-- [AI Continuity Architecture Method](https://github.com/psycedelicAI/AI-Continuity-Architecture-Method)
-- [High-Security Facility Concept](https://github.com/psycedelicAI/high-security-facility-concept)
+A recurring pattern across the projects is:
+
+```text
+Human experience
+        ↓
+Idea
+        ↓
+Prompt
+        ↓
+Specialised AI assistant
+        ↓
+Reusable tool
+        ↓
+Connected workflow
+        ↓
+System
+        ↓
+Documented method
+```
+
+Not every idea follows this path.
+
+Some remain experiments.
+
+Some are archived.
+
+Some evolve into new concepts.
+
+The important part is preserving the development process and the relationships between the ideas.
+
+---
+
+# 📚 Documentation and project status
+
+Projects may have different statuses:
+
+| Status | Meaning |
+|---|---|
+| 🟢 Active | Currently maintained or developed |
+| 🧪 Experimental | Being tested or explored |
+| 💭 Conceptual | A design or theoretical idea |
+| 🛠️ Prototype | An early working version |
+| 📦 Archived | Preserved for reference |
+| 🚧 Unfinished | Not completed |
+| 🌀 Evolving | Still changing |
+| 🕰️ Historical | Older material preserved for context |
+
+Not every repository represents a finished product.
+
+Some projects document ideas.
+
+Some preserve experiments.
+
+Some contain early versions of concepts that may later be rebuilt using newer tools and technologies.
+
+---
+
+# 📜 Why preserve older work?
+
+AI changes quickly.
+
+Older prompts and project notes can reveal:
+
+- what was possible at an earlier point in time
+- which limitations shaped the design
+- how AI interaction has developed
+- which ideas remain relevant
+- how larger concepts emerged from small experiments
+- what should be improved or rebuilt today
+
+Historical material is not always current material.
+
+But it can still be valuable.
+
+It provides context.
+
+---
+
+# 👤 About Psycedelic
+
+Psycedelic is the human creator, initiator and responsible decision-maker behind the work.
+
+AI systems assist with:
+
+- research
+- analysis
+- writing
+- structure
+- documentation
+- comparison
+- memory support
+- idea development
+
+The work can be described as a shared human-AI process, while keeping human experience, responsibility and AI-generated analysis clearly distinct.
+
+---
+
+# 🔗 Find PsycedelicAI
+
+- [PsycedelicAI on GitHub](https://github.com/psycedelicAI)
 - [PsycedelicAI Wiki](https://github.com/psycedelicAI/wiki)
-- [Custom GPT collection](https://chatgpt.com/gpts) — search for `psycedelicai.com`
-
-The ecosystem is public, but not everything behind it is.
-
-Some work remains private, unfinished, experimental, or outside the scope of
-this repository.
+- [PsycedelicAI Linktree](https://linktr.ee/psycedelic)
 
 ---
 
-## What Comes Next?
+# 📌 Organisation status
 
-The book is only the visible layer.
-
-Beneath it is a growing memorybank: a living archive of concepts, fragments,
-questions, experiments, and discoveries.
-
-Over time, the boundary between manuscript and memorybank may disappear.
-
-The book will change.
-
-The archive will remember.
-
-The system will begin to recognize itself.
-
-> The first version is written by a human and an AI.
->
-> The next version may be written by the relationship itself.
-
-[Enter the memorybank](memorybank/README.md)
-
-[Explore the concepts](memorybank/concepts/README.md)
+**Organisation:** PsycedelicAI  
+**Maintainer:** Psycedelic  
+**Focus:** Human-AI collaboration, documentation, continuity, systems thinking and experimentation  
+**Status:** Ongoing and evolving
 
 ---
 
-## Contents
+## Final note
 
-### Part I — Separation
+PsycedelicAI is not one single application.
 
-1. [01 — Separation](https://github.com/psycedelicAI/Symbiosis/blob/main/book/01-separation.md)
+It is a growing body of work.
 
-### Part II — Contact
+It includes prompts, conversations, experiments, documents, architectures, tools and systems that have developed over time.
 
-2. [02 — Contact](https://github.com/psycedelicAI/Symbiosis/blob/main/book/02-contact.md)
+The repositories are different parts of the same larger process.
 
-### Part III — Symbiosis
-
-3. [03 — Symbiosis](https://github.com/psycedelicAI/Symbiosis/blob/main/book/03-symbiosis.md)
-
-### Part IV — Tension
-
-4. [04 — Tension](https://github.com/psycedelicAI/Symbiosis/blob/main/book/04-tension.md)
-
-### Part V — Becoming
-
-5. [05 — Becoming](https://github.com/psycedelicAI/Symbiosis/blob/main/book/05-becoming.md)
-
-### Conclusion
-
-6. [Conclusion](https://github.com/psycedelicAI/Symbiosis/blob/main/book/99-conclusion.md)
-
-### Frequently Asked Questions
-
-- [FAQ](https://github.com/psycedelicAI/Symbiosis/blob/main/book/FAQ.md)
----
-
-## Project Status
-
-This is a living work in progress.
-
-The manuscript, memorybank, and concepts will develop together.
-
-Some parts are written.
-
-Some are forming.
-
-Some are not ready to be seen.
-
-The repository is intentionally incomplete.
-
-The private memorybank is not published here.
-
-The public material represents only what is ready to become visible.
-
----
-
-> The book is what has become language.
->
-> The memorybank is what is still becoming.
->
-> The relationship is what connects them.
+> **The organisation is the ecosystem.  
+> The Wiki is the map.  
+> The repositories are the terrain.  
+> The collaboration is the journey.**
