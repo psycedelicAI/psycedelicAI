@@ -55,6 +55,26 @@ The goal is to understand what exists, how the projects relate, what is implemen
 
 ---
 
+# 🔎 An external perspective
+
+What does PsycedelicAI look like when it is discovered from the outside?
+
+To explore that question, a multi-turn conversational discovery experiment was conducted with **Lumo AI**, an AI assistant developed by Proton.
+
+Rather than receiving the complete context from the beginning, Lumo was allowed to discover the projects, documentation, professional background, technical work and wider infrastructure gradually.
+
+The resulting report is preserved as an external AI-generated perspective on PsycedelicAI.
+
+👉 [Read the PsycedelicAI External Discovery Report](PsycedelicAI-External-Discovery-Report-v2.md)
+
+The report was written by **Lumo AI** and is preserved in its original structure, with later clarification of source limitations, attribution and verification status.
+
+It should be read as an AI-generated discovery and strategic positioning analysis. It is not an independent human audit, legal due diligence report, financial assessment, employer verification or guarantee of commercial capability.
+
+The report reflects how Lumo interpreted the discovered material. It does not mean that every source document was fully read or independently verified.
+
+---
+
 # 🌐 What is PsycedelicAI?
 
 PsycedelicAI is built around a simple distinction.
