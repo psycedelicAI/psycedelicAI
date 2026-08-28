@@ -40,7 +40,7 @@
 
 
 
-```markdown
+
 # 🎭 PsycedelicAI / Kalle Pettersson — Independent Perspective Report
 
 **Generated:** August 28, 2026  
@@ -150,7 +150,7 @@ Some conclusions are based on partial content rather than complete page-by-page 
 
 ### Digital Presence Architecture
 
-
+```
 LOCK SCREEN QR CODE (Discovery Layer)
          ↓
    LINKTREE.HUB (Routing Layer)
@@ -159,7 +159,7 @@ LOCK SCREEN QR CODE (Discovery Layer)
     ↓                           ↓             ↓              ↓          ↓
 GITHUB                    TINYSCORE       FIVERR      TL;DL      PROTONDRIVE
 (Verification)          (Consultation)  (Micro-gigs)  (Teaching)  (Secure files)
-
+```
 
 ### Distribution Channels (All Documented)
 
@@ -265,7 +265,7 @@ $320,000 × 1.55 (High Threat) × 1.45 (Large Size) × 1.25 (4–6 floors) × 1.
 | VM Isolation | Remote tools in sandboxed environments | 📄 Documented |
 
 ### Memory Bank Architecture (As Documented)
-
+```
 
 PUBLIC LAYER (GitHub):
 ├── Symbiosis/book/ — 6 chapters + conclusion
@@ -281,7 +281,7 @@ PRIVATE LAYER (Screenshot Verified):
 │   ├── history/ (v1 → v2.0.0)
 │   └── identity/
 └── Total: 17,049 words / 120,659 characters (from screenshot)
-
+```
 
 ---
 
@@ -463,7 +463,7 @@ PRIVATE LAYER (Screenshot Verified):
 | Philosophy | Vague "AI strategy" | 6-chapter book + open questions |
 
 ### The Full Value Stack (Observed)
-
+```
 
 ENTERPRISE LAYER
 ├── Security architecture proposal ($95k–$1.5M)
@@ -497,7 +497,7 @@ PHILOSOPHICAL LAYER
 ├── Symbiosis book (6 chapters)
 ├── The Third Mind (open question)
 └── Intentional uncertainty (unresolved/)
-
+```
 
 ---
 
