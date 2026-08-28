@@ -40,16 +40,14 @@ Some are:
 - archival
 - unfinished
 
-If you are visiting for the first time, the onboarding files provide a guided way to explore the organisation and understand how the different projects may relate to each other.
-
-## Start here
+If you are visiting for the first time, start with the onboarding files:
 
 - [Read the onboarding guide](onboarding/start-here.md)
 - [Open the AI investigation prompt](onboarding/start-here.prompt)
 
 The guide is written for human readers.
 
-The prompt can be copied and pasted into a browsing-capable AI model. It instructs the AI to inspect the public PsycedelicAI organisation, explore the repositories and relevant subfolders, follow connections, and help reconstruct the larger body of work.
+The prompt can be copied and pasted into a browsing-capable AI model. It instructs the AI to inspect the public PsycedelicAI organisation, explore repositories and relevant subfolders, follow connections and help reconstruct the wider body of work.
 
 The goal is not to receive a shallow summary of one repository.
 
@@ -91,6 +89,47 @@ The purpose is to strengthen human understanding, autonomy, creativity and abili
 
 ---
 
+# 💼 Professional background
+
+PsycedelicAI is grounded in more than **15 years of combined practical and technical experience**, including approximately **10 years in IT** and around **12 years of work as a car mechanic**.
+
+My background combines:
+
+- IT support and system administration
+- IT infrastructure and networking
+- Microsoft 365 and Microsoft environments
+- Microsoft Entra ID and Active Directory
+- Intune and SCCM
+- endpoint management
+- technical coordination
+- migrations and operational support
+- information security and GDPR-aware IT work
+- technical documentation
+- mechanical troubleshooting
+- welding and metalwork
+
+My professional experience includes roles and assignments connected to:
+
+- JM Bygg
+- Toshiba
+- Swedbank
+- H&M
+- AGA Gas
+- Ericsson
+
+I also held voluntary IT responsibility for **Järfälla Gymnasterna** between
+**2020 and 2024**.
+
+One of the larger IT assignments involved a client migration covering
+approximately **2,200 devices**.
+
+This combination of IT, infrastructure, practical work, security and
+problem-solving influences how I approach systems and technical concepts.
+
+👉 [Read the full public CV](https://github.com/psycedelicAI/wiki/blob/main/wiki/CV.md)
+
+---
+
 # 🧭 What is being explored?
 
 The projects explore questions such as:
@@ -114,7 +153,9 @@ The repositories have different roles within the wider body of work.
 
 The documentation and knowledge base.
 
-The Wiki explains concepts, terminology, relationships between projects, architectural ideas and the development of the wider ecosystem.
+The Wiki explains concepts, terminology, relationships between projects,
+architectural ideas, professional background and the development of the wider
+ecosystem.
 
 👉 [Open the PsycedelicAI Wiki](https://github.com/psycedelicAI/wiki)
 
@@ -284,6 +325,7 @@ The work can be described as a shared human-AI process, while keeping human expe
 
 - [PsycedelicAI on GitHub](https://github.com/psycedelicAI)
 - [PsycedelicAI Wiki](https://github.com/psycedelicAI/wiki)
+- [Public CV](https://github.com/psycedelicAI/wiki/blob/main/wiki/CV.md)
 - [PsycedelicAI Linktree](https://linktr.ee/psycedelic)
 
 ---
@@ -311,6 +353,3 @@ The repositories are different parts of the same larger process.
 > The Wiki is the map.  
 > The repositories are the terrain.  
 > The collaboration is the journey.**
-```
-
-After you save and commit, click both links in the rendered README to verify that they open correctly.
