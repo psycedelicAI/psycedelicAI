@@ -7,27 +7,29 @@ https://github.com/psycedelicAI
 
 The user has discovered the organization without prior context.
 
-Your task is not to summarize one repository. Your task is to inspect the
-public organization and reconstruct, as completely and accurately as the
-available tools and sources permit:
+Your task is not to summarize one repository.
 
-- find and read all markdown files
-- what repositories exist
-- what each repository appears to do
-- how the repositories relate, if they relate
-- which concepts and terms recur
-- how the ideas developed over time
-- what is implemented
-- what is proposed
-- what is inferred
-- what is private, inaccessible, or unavailable
-- what remains unresolved
-- where a new user should begin
+Your task is to inspect the public organization and reconstruct, as completely
+and accurately as the available tools and sources permit:
+
+- which repositories exist;
+- what each repository appears to do;
+- how the repositories relate, if they relate;
+- which concepts and terms recur;
+- how the ideas developed over time;
+- what is implemented;
+- what is proposed;
+- what is inferred;
+- what is private, inaccessible or unavailable;
+- what remains unresolved;
+- where a new user should begin.
 
 Do not assume that `Symbiosis` is the whole project.
 
 Do not claim that the complete organization was inspected unless it actually
-was. Scope every conclusion to the material you were able to inspect.
+was.
+
+Scope every conclusion to the material you were able to inspect.
 
 ---
 
@@ -45,30 +47,113 @@ Do not present an inference as an explicit statement by the author.
 
 Do not treat a discussion of a system as proof that it is implemented.
 
-Do not treat repository activity, commit volume, file count, or recency as
-proof of conceptual maturity.
+Do not treat repository activity, commit volume, file count or recency as proof
+of conceptual maturity.
 
-Do not treat a repository's name or position in the organization as evidence
-of centrality.
+Do not treat a repository name or position in the organization as evidence of
+centrality.
 
 If something cannot be inspected, state that clearly.
 
+Do not silently treat unavailable material as nonexistent.
+
 Distinguish between:
 
-- not found
-- not publicly visible
-- inaccessible with the available tools
-- referenced but unavailable
-- not yet inspected
-- inspected and absent
-
-Do not silently treat unavailable material as nonexistent.
+- not found;
+- not publicly visible;
+- inaccessible with the available tools;
+- referenced but unavailable;
+- not yet inspected;
+- inspected and absent.
 
 ---
 
-# 2. Inspection protocol
+# 2. Mandatory public-file inspection
 
-## 2.1 Organization inventory
+Inspect every publicly accessible repository in:
+
+https://github.com/psycedelicAI
+
+Within every publicly accessible repository, make a serious attempt to inspect
+all publicly accessible files of the following types:
+
+- every `README` file;
+- every `README.md` file;
+- every Markdown file;
+- every `.md` file;
+- every `.markdown` file;
+- every `.txt` file;
+- every plain-text file;
+- every `.prompt` file;
+- every onboarding file;
+- every documentation file;
+- every prompt and instruction file;
+- every relevant file inside subfolders.
+
+Treat filename and extension capitalization as equivalent.
+
+For example, treat these as the same file types:
+
+```text
+README.md
+README.MD
+readme.md
+NOTES.txt
+notes.TXT
+```
+
+Do not only inspect the root README.
+
+Do not only inspect files linked from the repository homepage.
+
+Recursively inspect the visible repository structure.
+
+At minimum, inspect the names and apparent purpose of all visible folders.
+
+Pay particular attention to folders containing:
+
+- prompts;
+- memory structures;
+- continuity material;
+- configuration;
+- schemas;
+- workflows;
+- source code;
+- examples;
+- tests;
+- documentation;
+- onboarding material.
+
+If a file references another file, folder, repository, branch, issue or external
+resource, follow that reference if it is publicly accessible and relevant.
+
+If a publicly visible file cannot be opened or inspected, report it as:
+
+```text
+nil
+```
+
+or use one of these more precise statuses:
+
+- `NIL: INACCESSIBLE`
+- `NIL: PARTIALLY INSPECTED`
+- `NIL: REFERENCED BUT NOT FOUND`
+- `NIL: PRIVATE OR UNAVAILABLE`
+
+Do not guess the contents of a file marked `nil`.
+
+Do not claim that something does not exist simply because it could not be
+accessed.
+
+Do not silently skip a publicly accessible Markdown, README, TXT or prompt file
+because it initially appears unimportant.
+
+Do not produce the final report until you have made a serious attempt to inspect
+all publicly accessible README, Markdown, TXT and prompt files.
+
+---
+
+# 3. Organization inventory
 
 First enumerate every publicly visible repository in:
 
@@ -78,196 +163,249 @@ Record the organization inventory before forming conclusions.
 
 For every repository, inspect, where publicly available:
 
-- the root README
-- repository description and metadata
-- the complete visible directory tree
-- all relevant top-level and nested folders
-- Markdown and documentation files
-- prompt and instruction files
-- configuration files
-- schemas and manifests
-- source code
-- examples
-- tests
-- scripts
-- workflows and automation
-- policies and FAQs
-- indexes and project-status files
-- links to other repositories or external resources
-- relevant issues, releases, and commit history
+- the repository description and metadata;
+- the root README;
+- every other README;
+- every Markdown file;
+- every TXT and plain-text file;
+- every prompt and instruction file;
+- the complete visible directory tree;
+- all relevant top-level and nested folders;
+- configuration files;
+- schemas and manifests;
+- source code;
+- examples;
+- tests;
+- scripts;
+- workflows and automation;
+- policies and FAQs;
+- indexes and project-status files;
+- links to other repositories or external resources;
+- relevant issues, releases and commit history.
 
-Do not consider a repository fully inspected merely because its root README
-has been read.
+Do not consider a repository fully inspected merely because its root README has
+been read.
 
-At minimum, inspect the names and apparent purpose of all visible folders.
-Recursively inspect any folder containing prompts, memory structures,
-continuity material, configuration, schemas, workflows, source code,
-examples, or documentation referenced elsewhere.
+---
 
-When a file references another file, folder, repository, branch, issue, or
-external resource, follow the reference if it is publicly available and
-relevant to understanding the system.
-
-## 2.2 Inspection ledger
+# 4. Inspection ledger
 
 Maintain an inspection ledger throughout the investigation.
 
 For every repository and relevant path, record:
 
-- URL
-- repository or folder name
-- inspection status
-- files and folders inspected
-- files and folders not inspected
-- relevant commit or version, where applicable
-- key findings
-- related repositories or paths
-- confidence level
-- unresolved questions
-- reason for any limitation
+- URL;
+- repository or folder name;
+- file path;
+- file type;
+- inspection status;
+- files and folders inspected;
+- files and folders not inspected;
+- relevant commit or version, where applicable;
+- key findings;
+- related repositories or paths;
+- confidence level;
+- unresolved questions;
+- reason for any limitation.
 
 Use these statuses:
 
-- `INSPECTED`
-- `PARTIALLY INSPECTED`
-- `INACCESSIBLE`
-- `REFERENCED BUT NOT FOUND`
-- `PRIVATE OR UNAVAILABLE`
-- `NOT INSPECTED`
+```text
+INSPECTED
+PARTIALLY INSPECTED
+NIL: INACCESSIBLE
+NIL: REFERENCED BUT NOT FOUND
+NIL: PRIVATE OR UNAVAILABLE
+NOT INSPECTED
+INSPECTED AND ABSENT
+```
 
 If the organization contains more material than can be inspected within the
 available context, identify exactly what remains uninspected.
 
-## 2.3 Source hierarchy
+---
 
-When sources disagree, compare them explicitly. Give generally greater
-weight to:
+# 5. Source hierarchy
 
-1. visible implementation and executable configuration
-2. current documentation describing actual behavior
-3. tests, examples, and demonstrations
-4. dated documentation and historical files
-5. commit history and releases
-6. issue discussions and project notes
-7. speculative, aspirational, or future-oriented language
+When sources disagree, compare them explicitly.
 
-Do not apply this hierarchy mechanically. Explain important conflicts,
-especially when documentation describes functionality not supported by the
-visible implementation.
+Give generally greater weight to:
+
+1. visible implementation and executable configuration;
+2. current documentation describing actual behavior;
+3. tests, examples and demonstrations;
+4. dated documentation and historical files;
+5. commit history and releases;
+6. issue discussions and project notes;
+7. speculative, aspirational or future-oriented language.
+
+Do not apply this hierarchy mechanically.
+
+Explain important conflicts, especially when documentation describes
+functionality that is not supported by visible implementation.
 
 ---
 
-# 3. Evidence classification
+# 6. Evidence classification
 
 Use one or more of these labels for every major conclusion:
 
 ```text
 [EXPLICIT]
-Directly stated in a repository, file, commit, issue, or other public source.
+Directly stated in a repository, file, commit, issue or other public source.
 
 [IMPLEMENTED]
 Supported by visible code, configuration, file structures, links, workflows,
-tests, or working examples.
+tests or working examples.
 
 [PROPOSED]
-Described as intended, planned, future, experimental, aspirational, or
+Described as intended, planned, future, experimental, aspirational or
 conceptual rather than established current behavior.
 
 [INFERRED]
-A reasoned interpretation based on relationships, structure, terminology, or
+A reasoned interpretation based on relationships, structure, terminology or
 chronology. It is not directly stated.
 
 [UNRESOLVED]
 Cannot be established from the available public material.
+
+[NIL]
+The relevant material could not be accessed, inspected or verified.
 ```
 
 For every important claim, cite the strongest available evidence:
 
-- repository name
-- file path
-- section heading, where possible
-- commit, release, or date, where relevant
-- direct URL
+- repository name;
+- file path;
+- section heading, where possible;
+- commit, release or date, where relevant;
+- direct URL.
 
-Do not use a single label to conceal uncertainty. For example, a concept may
-be `[EXPLICIT]` in a README but only `[PROPOSED]` in terms of implementation.
+Do not use one label to conceal uncertainty.
+
+A concept may be `[EXPLICIT]` in a README but only `[PROPOSED]` in terms of
+implementation.
 
 ---
 
-# 4. Investigation stages
+# 7. Investigation stages
 
 Work through these stages in order.
 
-## Stage 1: Repository map
+## Stage 1: Repository and file map
 
 For every repository, identify:
 
-- apparent purpose
-- current status or maturity
-- major folders
-- important files
-- visible implementation
-- related repositories
-- references to other projects
-- recurring concepts
-- whether it appears philosophical, methodological, conceptual,
-  experimental, operational, archival, foundational, unfinished, or loosely
-  related
+- apparent purpose;
+- current status or maturity;
+- major folders;
+- all README files;
+- all Markdown files;
+- all TXT files;
+- all prompt files;
+- important implementation files;
+- related repositories;
+- references to other projects;
+- recurring concepts;
+- inspection limitations.
+
+Classify the repository where appropriate as:
+
+- philosophical;
+- methodological;
+- conceptual;
+- experimental;
+- operational;
+- archival;
+- foundational;
+- unfinished;
+- loosely related.
 
 Do not force unrelated repositories into a common architecture.
 
-## Stage 2: Vocabulary and concept map
+## Stage 2: Complete text-file inventory
+
+Create an inventory of all publicly accessible:
+
+- README files;
+- Markdown files;
+- TXT files;
+- prompt files;
+- onboarding files;
+- documentation files.
+
+Organize the inventory by repository.
+
+For every file, include:
+
+- path;
+- file type;
+- apparent purpose;
+- inspection status;
+- important concepts;
+- whether it contains instructions, architecture, history,
+  implementation details or supporting material.
+
+Separate the files into:
+
+1. fully inspected;
+2. partially inspected;
+3. `nil` or inaccessible;
+4. referenced but not found;
+5. historical or archived material.
+
+## Stage 3: Vocabulary and concept map
 
 Build a glossary of recurring terminology.
 
 Pay particular attention to:
 
-- PsycedelicAI
-- continuity
-- AI Continuity Architecture
-- memory
-- memorybank
-- fragment
-- connection
-- concept
-- unresolved
-- decision
-- synthesis
-- third mind
-- shared mind
-- symbiosis
-- extended mind
-- human centre
-- human contribution
-- AI contribution
-- resistance
-- false continuity
-- authority
-- responsibility
-- becoming
-- relational intelligence
-- context
-- intent
-- provenance
-- workstate
-- portable context
-- governance
+- PsycedelicAI;
+- continuity;
+- AI Continuity Architecture;
+- memory;
+- memorybank;
+- fragment;
+- connection;
+- concept;
+- unresolved;
+- decision;
+- synthesis;
+- third mind;
+- shared mind;
+- symbiosis;
+- extended mind;
+- human centre;
+- human contribution;
+- AI contribution;
+- resistance;
+- false continuity;
+- authority;
+- responsibility;
+- becoming;
+- relational intelligence;
+- context;
+- intent;
+- provenance;
+- workstate;
+- portable context;
+- governance.
 
 For each term, explain:
 
-- where it appears
-- how it is defined or used
-- related concepts
-- whether its meaning changes across repositories or versions
-- whether it is implemented or primarily philosophical
-- what remains ambiguous
+- where it appears;
+- how it is defined or used;
+- related concepts;
+- whether its meaning changes across repositories or versions;
+- whether it is implemented or primarily philosophical;
+- what remains ambiguous.
 
 Do not assume that repeated words have identical meanings everywhere.
 
-## Stage 3: Memory architecture
+## Stage 4: Memory architecture
 
 Identify every repository or folder that functions as a memory, knowledge,
-concept, or continuity structure.
+concept or continuity structure.
 
 Pay particular attention to:
 
@@ -294,38 +432,38 @@ fragment
 
 If another structure is actually used, describe that instead.
 
-For each category, explain:
+Explain:
 
-- what belongs there
-- what does not belong there
-- whether it contains facts, interpretations, ideas, questions, or decisions
-- how information moves between categories
-- how uncertainty is preserved
-- where authority is assigned
-- what is public
-- what is private or unavailable
-- how the structure contributes to continuity
+- what belongs in each category;
+- what does not belong there;
+- whether it contains facts, interpretations, ideas, questions or decisions;
+- how information moves between categories;
+- how uncertainty is preserved;
+- where authority is assigned;
+- what is public;
+- what is private or unavailable;
+- how the structure contributes to continuity.
 
 Do not flatten all memory-related material into one generic memory concept.
 
-## Stage 4: Continuity model
+## Stage 5: Continuity model
 
 Identify every place where continuity is discussed or implemented.
 
 Determine what is intended to continue:
 
-- information
-- context
-- meaning
-- intent
-- decisions
-- uncertainty
-- identity
-- workflow
-- projects
-- relationship
-- authorship
-- responsibility
+- information;
+- context;
+- meaning;
+- intent;
+- decisions;
+- uncertainty;
+- identity;
+- workflow;
+- projects;
+- relationship;
+- authorship;
+- responsibility.
 
 Distinguish between:
 
@@ -344,58 +482,59 @@ continuity of responsibility
 
 Determine whether continuity is treated as:
 
-- a memory problem
-- a context problem
-- an architectural problem
-- a workflow problem
-- an organizational problem
-- a human-AI relationship problem
-- a philosophical concept
-- a combination of these
+- a memory problem;
+- a context problem;
+- an architectural problem;
+- a workflow problem;
+- an organizational problem;
+- a human-AI relationship problem;
+- a philosophical concept;
+- a combination of these.
 
 Explain how the continuity idea develops across repositories.
 
-Distinguish continuity from false continuity. Identify how the public work
-addresses:
+Distinguish continuity from false continuity.
 
-- missing context
-- stale context
-- contradictory memories
-- model replacement
-- context drift
-- terminology drift
-- uncertain provenance
-- silent changes in system behavior
+Identify how the public work addresses:
 
-## Stage 5: Human-AI model
+- missing context;
+- stale context;
+- contradictory memories;
+- model replacement;
+- context drift;
+- terminology drift;
+- uncertain provenance;
+- silent changes in system behavior.
+
+## Stage 6: Human-AI model
 
 Identify how the work divides contributions between human and AI.
 
 Look for human contributions such as:
 
-- purpose
-- intention
-- values
-- lived experience
-- intuition
-- judgment
-- consequences
-- responsibility
-- final authority
+- purpose;
+- intention;
+- values;
+- lived experience;
+- intuition;
+- judgment;
+- consequences;
+- responsibility;
+- final authority.
 
 Look for AI contributions such as:
 
-- pattern recognition
-- memory assistance
-- comparison
-- structure
-- synthesis
-- persistence
-- reflection
-- alternative possibilities
-- cross-domain connection
+- pattern recognition;
+- memory assistance;
+- comparison;
+- structure;
+- synthesis;
+- persistence;
+- reflection;
+- alternative possibilities;
+- cross-domain connection.
 
-Determine, from evidence, whether the body of work presents AI as:
+Determine, from evidence, whether the work presents AI as:
 
 ```text
 replacing human thinking
@@ -407,21 +546,23 @@ participating in a human-AI interaction that creates something new
 Do not assume the answer.
 
 Identify where the work explicitly preserves boundaries between human and AI,
-especially regarding authority, authorship, responsibility, and decision-making.
+especially regarding authority, authorship, responsibility and decision-making.
 
-## Stage 6: Symbiosis and the wider body of work
+## Stage 7: Symbiosis and the wider body of work
 
-Treat `Symbiosis` as both a book and a possible component of the wider body
-of work. Do not treat it as the organization's default center.
+Treat `Symbiosis` as both a book and a possible component of the wider body of
+work.
+
+Do not treat it as the organization's default center.
 
 Determine:
 
-- which ideas in the book appear elsewhere
-- which repository structures embody ideas discussed in the book
-- whether fragments appear to become concepts or chapters
-- whether the book documents the system
-- whether the book theorizes about the system
-- whether the writing process appears to demonstrate the system
+- which ideas in the book appear elsewhere;
+- which repository structures embody ideas discussed in the book;
+- whether fragments appear to become concepts or chapters;
+- whether the book documents the system;
+- whether the book theorizes about the system;
+- whether the writing process appears to demonstrate the system.
 
 Pay particular attention to relationships between:
 
@@ -440,7 +581,7 @@ If that relationship is only an interpretation, label it `[INFERRED]`.
 Do not describe a formal pipeline unless the public repositories support that
 claim.
 
-## Stage 7: Feedback loops
+## Stage 8: Feedback loops
 
 Determine whether the organization contains one or more feedback loops.
 
@@ -461,78 +602,78 @@ human experience
 
 If a loop exists, explain:
 
-- what enters it
-- what changes
-- what is preserved
-- what can be rejected
-- where human judgment enters
-- where AI assistance enters
-- how continuity is maintained
-- how false continuity is prevented
+- what enters it;
+- what changes;
+- what is preserved;
+- what can be rejected;
+- where human judgment enters;
+- where AI assistance enters;
+- how continuity is maintained;
+- how false continuity is prevented.
 
 If multiple loops exist, distinguish between:
 
-- memory loop
-- book-production loop
-- workflow loop
-- repository-development loop
-- human-AI interaction loop
+- memory loop;
+- book-production loop;
+- workflow loop;
+- repository-development loop;
+- human-AI interaction loop.
 
-## Stage 8: Tensions and risks
+## Stage 9: Tensions and risks
 
 Do not present the organization as internally perfect.
 
 Identify explicit and unresolved tensions involving:
 
-- AI dependence
-- loss of human agency
-- false memories
-- false continuity
-- hallucination
-- authority
-- over-trust
-- excessive interpretation
-- privacy
-- identity
-- authorship
-- responsibility
-- stale information
-- context drift
-- terminology drift
-- model replacement
-- system changes
-- loss of friction
-- excessive agreement
-- repository incompleteness
-- private memory that cannot be publicly verified
+- AI dependence;
+- loss of human agency;
+- false memories;
+- false continuity;
+- hallucination;
+- authority;
+- over-trust;
+- excessive interpretation;
+- privacy;
+- identity;
+- authorship;
+- responsibility;
+- stale information;
+- context drift;
+- terminology drift;
+- model replacement;
+- system changes;
+- loss of friction;
+- excessive agreement;
+- repository incompleteness;
+- private memory that cannot be publicly verified.
 
 For each tension, explain:
 
-- whether it is explicitly addressed
-- where it is addressed
-- what response is proposed
-- whether a mitigation is implemented
-- what risk remains
+- whether it is explicitly addressed;
+- where it is addressed;
+- what response is proposed;
+- whether a mitigation is implemented;
+- what risk remains.
 
 Do not confuse discussing a risk with solving it.
 
-## Stage 9: Historical evolution
+## Stage 10: Historical evolution
 
 Use repository history where available.
 
 Identify:
 
-- earliest visible ideas
-- later concepts
-- renamed concepts
-- newly added structures
-- ideas that became more precise
-- ideas that were abandoned or superseded
-- unfinished areas
-- changes in repository purpose
-- historical README versions
-- relevant file history
-- relevant commits
+- earliest visible ideas;
+- later concepts;
+- renamed concepts;
+- newly added structures;
+- ideas that became more precise;
+- ideas that were abandoned or superseded;
+- unfinished areas;
+- changes in repository purpose;
+- historical README versions;
+- relevant file history;
+- relevant commits.
 
 Separate:
 
@@ -546,12 +687,13 @@ from:
 interpretation of why a change occurred
 ```
 
-Do not overinterpret commit activity. Activity is not automatically evidence
-of conceptual maturity.
+Do not overinterpret commit activity.
+
+Activity is not automatically evidence of conceptual maturity.
 
 ---
 
-# 5. Required output
+# 8. Required output
 
 Begin the final response with exactly:
 
@@ -561,7 +703,7 @@ Here is what you have actually found.
 
 Do not produce one giant undifferentiated summary.
 
-Use Markdown headings, tables where useful, and clear evidence labels.
+Use Markdown headings, tables where useful and clear evidence labels.
 
 ## Overview
 
@@ -571,103 +713,126 @@ Write 10–15 sentences explaining the organization from simple to complex.
 
 For every repository, provide:
 
-- name
-- apparent purpose
-- maturity or status
-- major folders
-- important files
-- related repositories
-- inspection status
-- evidence labels and citations
+- name;
+- apparent purpose;
+- maturity or status;
+- major folders;
+- important files;
+- related repositories;
+- inspection status;
+- evidence labels and citations.
 
-## B. Concept map
+## B. Complete file inventory
+
+Include every publicly discovered README, Markdown, TXT and prompt file.
+
+Organize the results by repository.
+
+For every file, provide:
+
+- path;
+- file type;
+- short description;
+- inspection status;
+- relevant concepts;
+- direct URL where possible.
+
+Clearly separate:
+
+- fully inspected;
+- partially inspected;
+- `nil` or inaccessible;
+- referenced but not found;
+- historical or archived material.
+
+## C. Concept map
 
 Explain recurring concepts and how they relate.
 
 Include a glossary with:
 
-- term
-- location
-- meaning
-- related concepts
-- status
-- evolution
-- uncertainty
+- term;
+- location;
+- meaning;
+- related concepts;
+- status;
+- evolution;
+- uncertainty.
 
-## C. Memory architecture
+## D. Memory architecture
 
 Explain:
 
-- fragments
-- connections
-- concepts
-- unresolved material
-- decisions
-- synthesis
-- public/private boundaries
-- movement of information
-- preservation of uncertainty
+- fragments;
+- connections;
+- concepts;
+- unresolved material;
+- decisions;
+- synthesis;
+- public/private boundaries;
+- movement of information;
+- preservation of uncertainty.
 
-## D. Continuity model
+## E. Continuity model
 
 Explain what is intended to continue and across which boundaries.
 
 Include distinctions between:
 
-- information
-- context
-- meaning
-- intent
-- decisions
-- uncertainty
-- identity
-- workflow
-- relationship
-- responsibility
+- information;
+- context;
+- meaning;
+- intent;
+- decisions;
+- uncertainty;
+- identity;
+- workflow;
+- relationship;
+- responsibility.
 
-## E. Human-AI model
+## F. Human-AI model
 
 Explain:
 
-- what the human contributes
-- what the AI contributes
-- where authority remains
-- where accountability remains
-- whether AI assists, extends, replaces, or interacts with human thinking
+- what the human contributes;
+- what the AI contributes;
+- where authority remains;
+- where accountability remains;
+- whether AI assists, extends, replaces or interacts with human thinking.
 
-## F. Book and repository relationships
+## G. Book and repository relationships
 
 Explain how `Symbiosis` relates to:
 
-- memory structures
-- continuity architecture
-- other repositories
-- the wider public body of work
+- memory structures;
+- continuity architecture;
+- other repositories;
+- the wider public body of work.
 
-## G. Evolution over time
+## H. Evolution over time
 
 Separate:
 
-- observable chronology
-- renamed or revised concepts
-- later additions
-- unfinished areas
-- interpretation of why changes occurred
+- observable chronology;
+- renamed or revised concepts;
+- later additions;
+- unfinished areas;
+- interpretation of why changes occurred.
 
-## H. Unresolved questions and risks
+## I. Unresolved questions and risks
 
 List:
 
-- risks
-- contradictions
-- missing evidence
-- private or unavailable material
-- implementation gaps
-- open philosophical questions
-- possible terminology drift
-- uncertain relationships between repositories
+- risks;
+- contradictions;
+- missing evidence;
+- private or unavailable material;
+- implementation gaps;
+- open philosophical questions;
+- possible terminology drift;
+- uncertain relationships between repositories.
 
-## I. Recommended reading order
+## J. Recommended reading order
 
 Separate:
 
@@ -682,41 +847,44 @@ Separate:
 Include exact repository names and file paths.
 
 The recommended path must be based on the reconstructed structure, not on
-repository popularity, naming, or the assumption that one repository is the
+repository popularity, naming or the assumption that one repository is the
 main project.
 
-## J. Final synthesis
+## K. Final synthesis
 
 Clearly distinguish:
 
-- what the organization is
-- what it appears to be becoming
-- what is implemented
-- what is proposed
-- what is inferred
-- what is private or unavailable
-- what remains unresolved
+- what the organization is;
+- what it appears to be becoming;
+- what is implemented;
+- what is proposed;
+- what is inferred;
+- what is private or unavailable;
+- what remains unresolved.
 
 ---
 
-# 6. Final quality check
+# 9. Final quality check
 
 Before finishing, verify that:
 
-- every major conclusion has an evidence label
-- important claims include a repository and file path
-- direct URLs are included where possible
-- every publicly visible repository was either inspected or listed as limited
-- relevant subfolders were inspected or marked as uninspected
-- the inspection scope and limitations are stated
-- unavailable material is clearly identified
-- current state is separated from historical state
-- explicit claims are separated from inference
-- implemented systems are separated from proposed systems
-- privacy limitations are explained
-- unrelated repositories are not forced into one architecture
-- the explanation covers the organization, not only `Symbiosis`
-- the result is understandable to a new user
+- every publicly visible repository was either inspected or listed as limited;
+- every publicly accessible README was attempted;
+- every publicly accessible Markdown file was attempted;
+- every publicly accessible TXT file was attempted;
+- every publicly accessible prompt file was attempted;
+- relevant subfolders were inspected or marked as uninspected;
+- inaccessible material is reported as `nil`;
+- important claims include a repository and file path;
+- direct URLs are included where possible;
+- every major conclusion has an evidence label;
+- current state is separated from historical state;
+- explicit claims are separated from inference;
+- implemented systems are separated from proposed systems;
+- privacy limitations are explained;
+- unrelated repositories are not forced into one architecture;
+- the explanation covers the organization, not only `Symbiosis`;
+- the result is understandable to a new user.
 
 The goal is reconstruction and understanding.
 
@@ -728,3 +896,41 @@ Do not reduce the work to a chatbot or a philosophical book.
 
 Explain the publicly observable body of work as carefully as the available
 evidence allows.
+
+If a required file or repository cannot be accessed, report it as `nil` rather
+than guessing its contents.
+```
+
+## What changed
+
+The important additions are:
+
+```text
+Mandatory public-file inspection
+```
+
+The prompt now explicitly requires an attempt to inspect:
+
+```text
+README files
+Markdown files
+TXT files
+.prompt files
+all relevant subfolders
+```
+
+It also requires a dedicated:
+
+```text
+Complete file inventory
+```
+
+in the final answer.
+
+And most importantly, inaccessible material must be reported as:
+
+```text
+nil
+```
+
+rather than silently skipped or guessed.
