@@ -91,7 +91,7 @@ Areas I want to continue developing include:
 - Knowledge management.
 - Technical coordination and training.
 
-👉 **[Read the full public CV](https://github.com/psycedelicAI/wiki/blob/main/wiki/CV.md)**
+👉 **[Read the full public CV](https://github.com/psycedelicAI/wiki/blob/main/Resume.md)**
 
 👉 **[View the original CV](https://drive.proton.me/urls/EN6697NDGC#kxAf9qV6nmAj)**
 
@@ -158,7 +158,7 @@ If you are visiting for the first time, start here:
 
 - [Read the onboarding guide](onboarding/start-here.md)
 - [Open the AI investigation prompt](onboarding/start-here.prompt)
-- [Read the public CV](https://github.com/psycedelicAI/wiki/blob/main/wiki/CV.md)
+- [Read the public CV](https://github.com/psycedelicAI/wiki/blob/main/Resume.md)
 - [Explore the PsycedelicAI Wiki](https://github.com/psycedelicAI/wiki)
 
 The onboarding guide is written for human readers.
@@ -183,7 +183,7 @@ should begin.
 Read the complete public CV for employment history, technical environments,
 responsibilities, education and practical experience.
 
-👉 [Open the public CV](https://github.com/psycedelicAI/wiki/blob/main/wiki/CV.md)
+👉 [Open the public CV](https://github.com/psycedelicAI/wiki/blob/main/Resume.md)
 
 ### AI Continuity Architecture Method
 
@@ -436,7 +436,7 @@ experience, responsibility and AI-generated analysis clearly distinct.
 
 - [PsycedelicAI on GitHub](https://github.com/psycedelicAI)
 - [PsycedelicAI Wiki](https://github.com/psycedelicAI/wiki)
-- [Public CV](https://github.com/psycedelicAI/wiki/blob/main/wiki/CV.md)
+- [Public CV](https://github.com/psycedelicAI/wiki/blob/main/Resume.md)
 - [Original CV](https://drive.proton.me/urls/EN6697NDGC#kxAf9qV6nmAj)
 - [PsycedelicAI Linktree](https://linktr.ee/psycedelic)
 
