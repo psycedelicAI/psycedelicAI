@@ -1,6 +1,6 @@
 # PsycedelicAI
 
-## IT professional · Systems thinker · Human-AI collaboration
+## IT Professional · Systems Thinker · Human-AI Collaboration · Concept Designer
 
 PsycedelicAI is a public body of work created and maintained by **Psycedelic**,
 an independent Swedish IT practitioner, system administrator and concept
