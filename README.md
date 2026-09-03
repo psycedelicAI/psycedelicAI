@@ -93,7 +93,7 @@ Areas I want to continue developing include:
 
 👉 **[Read the full public CV](https://github.com/psycedelicAI/wiki/blob/main/Resume.md)**
 
-👉 **[View the original CV](https://drive.proton.me/urls/EN6697NDGC#kxAf9qV6nmAj)**
+👉 **[View the original CV](https://drive.proton.me/urls/ZD2H74F9Y8#iuXXeE480r4f)**
 
 ---
 
@@ -437,7 +437,7 @@ experience, responsibility and AI-generated analysis clearly distinct.
 - [PsycedelicAI on GitHub](https://github.com/psycedelicAI)
 - [PsycedelicAI Wiki](https://github.com/psycedelicAI/wiki)
 - [Public CV](https://github.com/psycedelicAI/wiki/blob/main/Resume.md)
-- [Original CV](https://drive.proton.me/urls/EN6697NDGC#kxAf9qV6nmAj)
+- [Original CV](https://drive.proton.me/urls/ZD2H74F9Y8#iuXXeE480r4f)
 - [PsycedelicAI Linktree](https://linktr.ee/psycedelic)
 
 ---
